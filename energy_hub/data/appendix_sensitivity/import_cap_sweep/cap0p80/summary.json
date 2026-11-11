@@ -1,0 +1,17 @@
+{
+  "K": 6,
+  "N": 18,
+  "TAC_star": 8775087.024888044,
+  "import_cap_frac": 0.8,
+  "is_baseline": false,
+  "median_gap_to_TAC_star_pct": 41.90346962859508,
+  "median_percentile_B100": 1.1801160337552743,
+  "median_uniform_best_TAC_B100": 12452152.951244794,
+  "n_feasible_population": 7584,
+  "n_ipopt_attempted": 7714,
+  "n_seeds": 10,
+  "n_seeds_with_feasible_solution": 10,
+  "n_structural_rejected": 10850,
+  "n_total_supports": 18564,
+  "source": "recomputed_this_appendix"
+}

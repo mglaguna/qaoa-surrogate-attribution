@@ -1,0 +1,9 @@
+{
+  "best_TAC": 8775087.024891537,
+  "n_ipopt_attempted": 5931,
+  "n_ipopt_feasible": 5801,
+  "n_structural_rejected": 12633,
+  "n_total": 18564,
+  "path": "outputs\\final\\energy_hub\\exhaustive_classical_20260716_EXHAUSTIVE_CLASSICAL\\energy_hub_exhaustive_classical_rows.csv",
+  "reference_hash": "b97482a8962dee728d2f7ce5efc804979fe5a0b13d08918119e2434637f052fe"
+}

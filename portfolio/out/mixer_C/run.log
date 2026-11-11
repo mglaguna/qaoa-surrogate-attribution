@@ -1,0 +1,706 @@
+[Instancia fija N=15, K=5, R=13]
+  Activos con mu >= R=13: ['tech_growth', 'tech_semis', 'biotech'] (3 de 15)
+  return_support_ceiling excluye: C(12,5) = 792 de 3003 (26.37%)
+[Instancia fija N=15, K=5, R=13]
+  Activos con mu >= R=13: ['tech_growth', 'tech_semis', 'biotech'] (3 de 15)
+  return_support_ceiling excluye: C(12,5) = 792 de 3003 (26.37%)
+======================================================================
+HYBRID V2 | N=15, K=5, R=13.0
+  sampler=QAOA_line_none | top_eval=2
+  selection_policy=random_exactK
+======================================================================
+
+--- Iter 0 ---
+  Pool: 11 | exactK=11 | valid=11 | no-good=0 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7156 | top1_exactK=0.5514
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'medtech'] | freq=0.0498 | hybrid=0.623 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+    *** Best: 15.064779 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'utilities'] | freq=0.0386 | hybrid=0.647 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 1 ---
+  Pool: 11 | exactK=11 | valid=9 | no-good=2 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7149 | top1_exactK=0.5506
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'insurance'] | freq=0.0480 | hybrid=0.647 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech'] | freq=0.0600 | hybrid=0.567 | mu_score=63.00
+    IPOPT: variance=11.922034 | ret_slack=-0.0000
+    *** Best: 11.922034 ***
+
+--- Iter 2 ---
+  Pool: 11 | exactK=11 | valid=7 | no-good=4 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7300 | top1_exactK=0.5456
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'oil_gas'] | freq=0.0460 | hybrid=0.606 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'renewables'] | freq=0.0378 | hybrid=0.618 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 3 ---
+  Pool: 11 | exactK=11 | valid=5 | no-good=6 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6740 | top1_exactK=0.5674
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'retail'] | freq=0.5674 | hybrid=0.642 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_stap'] | freq=0.0308 | hybrid=0.659 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 4 ---
+  Pool: 11 | exactK=11 | valid=3 | no-good=8 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6957 | top1_exactK=0.5580
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_disc'] | freq=0.0332 | hybrid=0.638 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'fintech'] | freq=0.0468 | hybrid=0.618 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 5 ---
+  Pool: 11 | exactK=11 | valid=1 | no-good=10 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7082 | top1_exactK=0.5536
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'banking'] | freq=0.0528 | hybrid=0.638 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 6 ---
+  Pool: 11 | exactK=11 | valid=0 | no-good=11 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7239 | top1_exactK=0.5472
+  Espacio agotado. Terminando.
+
+======================================================================
+SOLUCIÓN FINAL [QAOA_line_none | random_exactK]
+======================================================================
+  Activos  : ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech']
+  Sectores : {'tech': 3, 'healthcare': 2}
+  Varianza : 11.922034
+  Activos efectivos: 5
+  Gap      : +0.2880%
+  IPOPT    : 11 (ahorradas: 2200)
+  Resumen muestreo/solver: ipopt_calls_used=11
+line/none seed=0: unique=11 ent=0.2127 top1=0.5556 gap=0.288
+======================================================================
+HYBRID V2 | N=15, K=5, R=13.0
+  sampler=QAOA_line_none | top_eval=2
+  selection_policy=random_exactK
+======================================================================
+
+--- Iter 0 ---
+  Pool: 11 | exactK=11 | valid=11 | no-good=0 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7386 | top1_exactK=0.5412
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_disc'] | freq=0.0380 | hybrid=0.638 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+    *** Best: 15.064779 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'oil_gas'] | freq=0.0482 | hybrid=0.606 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 1 ---
+  Pool: 11 | exactK=11 | valid=9 | no-good=2 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6740 | top1_exactK=0.5670
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'utilities'] | freq=0.0328 | hybrid=0.647 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_stap'] | freq=0.0346 | hybrid=0.659 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 2 ---
+  Pool: 11 | exactK=11 | valid=7 | no-good=4 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7067 | top1_exactK=0.5542
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech'] | freq=0.0578 | hybrid=0.567 | mu_score=63.00
+    IPOPT: variance=11.922034 | ret_slack=-0.0000
+    *** Best: 11.922034 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'fintech'] | freq=0.0490 | hybrid=0.618 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 3 ---
+  Pool: 11 | exactK=11 | valid=5 | no-good=6 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6962 | top1_exactK=0.5590
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'banking'] | freq=0.0490 | hybrid=0.638 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'retail'] | freq=0.5590 | hybrid=0.642 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 4 ---
+  Pool: 11 | exactK=11 | valid=3 | no-good=8 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7199 | top1_exactK=0.5492
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'insurance'] | freq=0.0496 | hybrid=0.647 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'medtech'] | freq=0.0608 | hybrid=0.623 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 5 ---
+  Pool: 11 | exactK=11 | valid=1 | no-good=10 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6922 | top1_exactK=0.5600
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'renewables'] | freq=0.0394 | hybrid=0.618 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 6 ---
+  Pool: 11 | exactK=11 | valid=0 | no-good=11 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7047 | top1_exactK=0.5552
+  Espacio agotado. Terminando.
+
+======================================================================
+SOLUCIÓN FINAL [QAOA_line_none | random_exactK]
+======================================================================
+  Activos  : ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech']
+  Sectores : {'tech': 3, 'healthcare': 2}
+  Varianza : 11.922034
+  Activos efectivos: 5
+  Gap      : +0.2880%
+  IPOPT    : 11 (ahorradas: 2200)
+  Resumen muestreo/solver: ipopt_calls_used=11
+line/none seed=1: unique=11 ent=0.2117 top1=0.5590 gap=0.288
+======================================================================
+HYBRID V2 | N=15, K=5, R=13.0
+  sampler=QAOA_line_none | top_eval=2
+  selection_policy=random_exactK
+======================================================================
+
+--- Iter 0 ---
+  Pool: 11 | exactK=11 | valid=11 | no-good=0 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6946 | top1_exactK=0.5584
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech'] | freq=0.0582 | hybrid=0.567 | mu_score=63.00
+    IPOPT: variance=11.922034 | ret_slack=-0.0000
+    *** Best: 11.922034 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'renewables'] | freq=0.0390 | hybrid=0.618 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 1 ---
+  Pool: 11 | exactK=11 | valid=9 | no-good=2 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7061 | top1_exactK=0.5542
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'oil_gas'] | freq=0.0362 | hybrid=0.606 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'insurance'] | freq=0.0464 | hybrid=0.647 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 2 ---
+  Pool: 11 | exactK=11 | valid=7 | no-good=4 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6968 | top1_exactK=0.5582
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_stap'] | freq=0.0356 | hybrid=0.659 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'medtech'] | freq=0.0528 | hybrid=0.623 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 3 ---
+  Pool: 11 | exactK=11 | valid=5 | no-good=6 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7119 | top1_exactK=0.5522
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'retail'] | freq=0.5522 | hybrid=0.642 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'banking'] | freq=0.0500 | hybrid=0.638 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 4 ---
+  Pool: 11 | exactK=11 | valid=3 | no-good=8 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6978 | top1_exactK=0.5584
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'utilities'] | freq=0.0366 | hybrid=0.647 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'fintech'] | freq=0.0436 | hybrid=0.618 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 5 ---
+  Pool: 11 | exactK=11 | valid=1 | no-good=10 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7111 | top1_exactK=0.5524
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_disc'] | freq=0.0364 | hybrid=0.638 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 6 ---
+  Pool: 11 | exactK=11 | valid=0 | no-good=11 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7063 | top1_exactK=0.5530
+  Espacio agotado. Terminando.
+
+======================================================================
+SOLUCIÓN FINAL [QAOA_line_none | random_exactK]
+======================================================================
+  Activos  : ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech']
+  Sectores : {'tech': 3, 'healthcare': 2}
+  Varianza : 11.922034
+  Activos efectivos: 5
+  Gap      : +0.2880%
+  IPOPT    : 11 (ahorradas: 2200)
+  Resumen muestreo/solver: ipopt_calls_used=11
+line/none seed=2: unique=11 ent=0.2132 top1=0.5528 gap=0.288
+======================================================================
+HYBRID V2 | N=15, K=5, R=13.0
+  sampler=QAOA_line_none | top_eval=2
+  selection_policy=random_exactK
+======================================================================
+
+--- Iter 0 ---
+  Pool: 11 | exactK=11 | valid=11 | no-good=0 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6972 | top1_exactK=0.5584
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'fintech'] | freq=0.0412 | hybrid=0.618 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+    *** Best: 15.064779 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'retail'] | freq=0.5584 | hybrid=0.642 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 1 ---
+  Pool: 11 | exactK=11 | valid=9 | no-good=2 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6858 | top1_exactK=0.5624
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_stap'] | freq=0.0354 | hybrid=0.659 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'banking'] | freq=0.0542 | hybrid=0.638 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 2 ---
+  Pool: 11 | exactK=11 | valid=7 | no-good=4 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7039 | top1_exactK=0.5552
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'insurance'] | freq=0.0456 | hybrid=0.647 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'renewables'] | freq=0.0426 | hybrid=0.618 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 3 ---
+  Pool: 11 | exactK=11 | valid=5 | no-good=6 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7265 | top1_exactK=0.5452
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_disc'] | freq=0.0398 | hybrid=0.638 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech'] | freq=0.0624 | hybrid=0.567 | mu_score=63.00
+    IPOPT: variance=11.922034 | ret_slack=-0.0000
+    *** Best: 11.922034 ***
+
+--- Iter 4 ---
+  Pool: 11 | exactK=11 | valid=3 | no-good=8 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7092 | top1_exactK=0.5536
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'medtech'] | freq=0.0566 | hybrid=0.623 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'oil_gas'] | freq=0.0464 | hybrid=0.606 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 5 ---
+  Pool: 11 | exactK=11 | valid=1 | no-good=10 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7220 | top1_exactK=0.5480
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'utilities'] | freq=0.0382 | hybrid=0.647 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 6 ---
+  Pool: 11 | exactK=11 | valid=0 | no-good=11 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7270 | top1_exactK=0.5456
+  Espacio agotado. Terminando.
+
+======================================================================
+SOLUCIÓN FINAL [QAOA_line_none | random_exactK]
+======================================================================
+  Activos  : ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech']
+  Sectores : {'tech': 3, 'healthcare': 2}
+  Varianza : 11.922034
+  Activos efectivos: 5
+  Gap      : +0.2880%
+  IPOPT    : 11 (ahorradas: 2200)
+  Resumen muestreo/solver: ipopt_calls_used=11
+line/none seed=3: unique=11 ent=0.2133 top1=0.5534 gap=0.288
+======================================================================
+HYBRID V2 | N=15, K=5, R=13.0
+  sampler=QAOA_line_none | top_eval=2
+  selection_policy=random_exactK
+======================================================================
+
+--- Iter 0 ---
+  Pool: 11 | exactK=11 | valid=11 | no-good=0 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7206 | top1_exactK=0.5488
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_stap'] | freq=0.0334 | hybrid=0.659 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+    *** Best: 15.064779 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'medtech'] | freq=0.0556 | hybrid=0.623 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 1 ---
+  Pool: 11 | exactK=11 | valid=9 | no-good=2 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6911 | top1_exactK=0.5608
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'retail'] | freq=0.5608 | hybrid=0.642 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'fintech'] | freq=0.0462 | hybrid=0.618 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 2 ---
+  Pool: 11 | exactK=11 | valid=7 | no-good=4 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7092 | top1_exactK=0.5532
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'oil_gas'] | freq=0.0420 | hybrid=0.606 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_disc'] | freq=0.0344 | hybrid=0.638 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 3 ---
+  Pool: 11 | exactK=11 | valid=5 | no-good=6 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7005 | top1_exactK=0.5568
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'banking'] | freq=0.0544 | hybrid=0.638 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'renewables'] | freq=0.0410 | hybrid=0.618 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 4 ---
+  Pool: 11 | exactK=11 | valid=3 | no-good=8 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7030 | top1_exactK=0.5552
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'utilities'] | freq=0.0384 | hybrid=0.647 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech'] | freq=0.0582 | hybrid=0.567 | mu_score=63.00
+    IPOPT: variance=11.922034 | ret_slack=-0.0000
+    *** Best: 11.922034 ***
+
+--- Iter 5 ---
+  Pool: 11 | exactK=11 | valid=1 | no-good=10 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7190 | top1_exactK=0.5492
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'insurance'] | freq=0.0452 | hybrid=0.647 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 6 ---
+  Pool: 11 | exactK=11 | valid=0 | no-good=11 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7229 | top1_exactK=0.5488
+  Espacio agotado. Terminando.
+
+======================================================================
+SOLUCIÓN FINAL [QAOA_line_none | random_exactK]
+======================================================================
+  Activos  : ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech']
+  Sectores : {'tech': 3, 'healthcare': 2}
+  Varianza : 11.922034
+  Activos efectivos: 5
+  Gap      : +0.2880%
+  IPOPT    : 11 (ahorradas: 2200)
+  Resumen muestreo/solver: ipopt_calls_used=11
+line/none seed=4: unique=11 ent=0.2125 top1=0.5554 gap=0.288
+======================================================================
+HYBRID V2 | N=15, K=5, R=13.0
+  sampler=QAOA_line_none | top_eval=2
+  selection_policy=random_exactK
+======================================================================
+
+--- Iter 0 ---
+  Pool: 11 | exactK=11 | valid=11 | no-good=0 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7330 | top1_exactK=0.5442
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'fintech'] | freq=0.0450 | hybrid=0.618 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+    *** Best: 15.064779 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'insurance'] | freq=0.0520 | hybrid=0.647 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 1 ---
+  Pool: 11 | exactK=11 | valid=9 | no-good=2 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7067 | top1_exactK=0.5538
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech'] | freq=0.0558 | hybrid=0.567 | mu_score=63.00
+    IPOPT: variance=11.922034 | ret_slack=-0.0000
+    *** Best: 11.922034 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'renewables'] | freq=0.0432 | hybrid=0.618 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 2 ---
+  Pool: 11 | exactK=11 | valid=7 | no-good=4 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6937 | top1_exactK=0.5574
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'banking'] | freq=0.0520 | hybrid=0.638 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'utilities'] | freq=0.0398 | hybrid=0.647 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 3 ---
+  Pool: 11 | exactK=11 | valid=5 | no-good=6 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6920 | top1_exactK=0.5606
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_stap'] | freq=0.0356 | hybrid=0.659 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'medtech'] | freq=0.0508 | hybrid=0.623 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 4 ---
+  Pool: 11 | exactK=11 | valid=3 | no-good=8 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6963 | top1_exactK=0.5584
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'retail'] | freq=0.5584 | hybrid=0.642 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'oil_gas'] | freq=0.0458 | hybrid=0.606 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 5 ---
+  Pool: 11 | exactK=11 | valid=1 | no-good=10 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7011 | top1_exactK=0.5572
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_disc'] | freq=0.0376 | hybrid=0.638 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 6 ---
+  Pool: 11 | exactK=11 | valid=0 | no-good=11 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6885 | top1_exactK=0.5618
+  Espacio agotado. Terminando.
+
+======================================================================
+SOLUCIÓN FINAL [QAOA_line_none | random_exactK]
+======================================================================
+  Activos  : ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech']
+  Sectores : {'tech': 3, 'healthcare': 2}
+  Varianza : 11.922034
+  Activos efectivos: 5
+  Gap      : +0.2880%
+  IPOPT    : 11 (ahorradas: 2200)
+  Resumen muestreo/solver: ipopt_calls_used=11
+line/none seed=5: unique=11 ent=0.2076 top1=0.5712 gap=0.288
+======================================================================
+HYBRID V2 | N=15, K=5, R=13.0
+  sampler=QAOA_line_none | top_eval=2
+  selection_policy=random_exactK
+======================================================================
+
+--- Iter 0 ---
+  Pool: 11 | exactK=11 | valid=11 | no-good=0 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6855 | top1_exactK=0.5630
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'fintech'] | freq=0.0478 | hybrid=0.618 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+    *** Best: 15.064779 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_disc'] | freq=0.0346 | hybrid=0.638 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 1 ---
+  Pool: 11 | exactK=11 | valid=9 | no-good=2 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6848 | top1_exactK=0.5634
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_stap'] | freq=0.0334 | hybrid=0.659 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'medtech'] | freq=0.0490 | hybrid=0.623 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 2 ---
+  Pool: 11 | exactK=11 | valid=7 | no-good=4 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6991 | top1_exactK=0.5564
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'utilities'] | freq=0.0374 | hybrid=0.647 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'oil_gas'] | freq=0.0350 | hybrid=0.606 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 3 ---
+  Pool: 11 | exactK=11 | valid=5 | no-good=6 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7218 | top1_exactK=0.5482
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'renewables'] | freq=0.0440 | hybrid=0.618 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'banking'] | freq=0.0514 | hybrid=0.638 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 4 ---
+  Pool: 11 | exactK=11 | valid=3 | no-good=8 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7075 | top1_exactK=0.5544
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'retail'] | freq=0.5544 | hybrid=0.642 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech'] | freq=0.0578 | hybrid=0.567 | mu_score=63.00
+    IPOPT: variance=11.922034 | ret_slack=-0.0000
+    *** Best: 11.922034 ***
+
+--- Iter 5 ---
+  Pool: 11 | exactK=11 | valid=1 | no-good=10 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6742 | top1_exactK=0.5680
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'insurance'] | freq=0.0468 | hybrid=0.647 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 6 ---
+  Pool: 11 | exactK=11 | valid=0 | no-good=11 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6983 | top1_exactK=0.5570
+  Espacio agotado. Terminando.
+
+======================================================================
+SOLUCIÓN FINAL [QAOA_line_none | random_exactK]
+======================================================================
+  Activos  : ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech']
+  Sectores : {'tech': 3, 'healthcare': 2}
+  Varianza : 11.922034
+  Activos efectivos: 5
+  Gap      : +0.2880%
+  IPOPT    : 11 (ahorradas: 2200)
+  Resumen muestreo/solver: ipopt_calls_used=11
+line/none seed=6: unique=11 ent=0.2131 top1=0.5544 gap=0.288
+======================================================================
+HYBRID V2 | N=15, K=5, R=13.0
+  sampler=QAOA_line_none | top_eval=2
+  selection_policy=random_exactK
+======================================================================
+
+--- Iter 0 ---
+  Pool: 11 | exactK=11 | valid=11 | no-good=0 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7451 | top1_exactK=0.5386
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'oil_gas'] | freq=0.0392 | hybrid=0.606 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+    *** Best: 15.064779 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'utilities'] | freq=0.0430 | hybrid=0.647 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 1 ---
+  Pool: 11 | exactK=11 | valid=9 | no-good=2 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7292 | top1_exactK=0.5450
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'banking'] | freq=0.0474 | hybrid=0.638 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_disc'] | freq=0.0340 | hybrid=0.638 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 2 ---
+  Pool: 11 | exactK=11 | valid=7 | no-good=4 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7095 | top1_exactK=0.5528
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech'] | freq=0.0536 | hybrid=0.567 | mu_score=63.00
+    IPOPT: variance=11.922034 | ret_slack=-0.0000
+    *** Best: 11.922034 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'fintech'] | freq=0.0458 | hybrid=0.618 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 3 ---
+  Pool: 11 | exactK=11 | valid=5 | no-good=6 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6918 | top1_exactK=0.5584
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'medtech'] | freq=0.0552 | hybrid=0.623 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'insurance'] | freq=0.0506 | hybrid=0.647 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 4 ---
+  Pool: 11 | exactK=11 | valid=3 | no-good=8 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7292 | top1_exactK=0.5448
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_stap'] | freq=0.0350 | hybrid=0.659 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'retail'] | freq=0.5448 | hybrid=0.642 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 5 ---
+  Pool: 11 | exactK=11 | valid=1 | no-good=10 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7363 | top1_exactK=0.5430
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'renewables'] | freq=0.0426 | hybrid=0.618 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 6 ---
+  Pool: 11 | exactK=11 | valid=0 | no-good=11 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6836 | top1_exactK=0.5626
+  Espacio agotado. Terminando.
+
+======================================================================
+SOLUCIÓN FINAL [QAOA_line_none | random_exactK]
+======================================================================
+  Activos  : ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech']
+  Sectores : {'tech': 3, 'healthcare': 2}
+  Varianza : 11.922034
+  Activos efectivos: 5
+  Gap      : +0.2880%
+  IPOPT    : 11 (ahorradas: 2200)
+  Resumen muestreo/solver: ipopt_calls_used=11
+line/none seed=7: unique=11 ent=0.2100 top1=0.5634 gap=0.288
+======================================================================
+HYBRID V2 | N=15, K=5, R=13.0
+  sampler=QAOA_line_none | top_eval=2
+  selection_policy=random_exactK
+======================================================================
+
+--- Iter 0 ---
+  Pool: 11 | exactK=11 | valid=11 | no-good=0 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7206 | top1_exactK=0.5484
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'utilities'] | freq=0.0418 | hybrid=0.647 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+    *** Best: 15.064779 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'renewables'] | freq=0.0450 | hybrid=0.618 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 1 ---
+  Pool: 11 | exactK=11 | valid=9 | no-good=2 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7320 | top1_exactK=0.5442
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech'] | freq=0.0568 | hybrid=0.567 | mu_score=63.00
+    IPOPT: variance=11.922034 | ret_slack=-0.0000
+    *** Best: 11.922034 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_disc'] | freq=0.0366 | hybrid=0.638 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 2 ---
+  Pool: 11 | exactK=11 | valid=7 | no-good=4 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6770 | top1_exactK=0.5656
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_stap'] | freq=0.0314 | hybrid=0.659 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'retail'] | freq=0.5656 | hybrid=0.642 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 3 ---
+  Pool: 11 | exactK=11 | valid=5 | no-good=6 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7144 | top1_exactK=0.5506
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'oil_gas'] | freq=0.0482 | hybrid=0.606 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'fintech'] | freq=0.0432 | hybrid=0.618 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 4 ---
+  Pool: 11 | exactK=11 | valid=3 | no-good=8 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7033 | top1_exactK=0.5558
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'medtech'] | freq=0.0540 | hybrid=0.623 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'banking'] | freq=0.0478 | hybrid=0.638 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 5 ---
+  Pool: 11 | exactK=11 | valid=1 | no-good=10 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7079 | top1_exactK=0.5544
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'insurance'] | freq=0.0512 | hybrid=0.647 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 6 ---
+  Pool: 11 | exactK=11 | valid=0 | no-good=11 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7084 | top1_exactK=0.5528
+  Espacio agotado. Terminando.
+
+======================================================================
+SOLUCIÓN FINAL [QAOA_line_none | random_exactK]
+======================================================================
+  Activos  : ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech']
+  Sectores : {'tech': 3, 'healthcare': 2}
+  Varianza : 11.922034
+  Activos efectivos: 5
+  Gap      : +0.2880%
+  IPOPT    : 11 (ahorradas: 2200)
+  Resumen muestreo/solver: ipopt_calls_used=11
+line/none seed=8: unique=11 ent=0.2123 top1=0.5568 gap=0.288
+======================================================================
+HYBRID V2 | N=15, K=5, R=13.0
+  sampler=QAOA_line_none | top_eval=2
+  selection_policy=random_exactK
+======================================================================
+
+--- Iter 0 ---
+  Pool: 11 | exactK=11 | valid=11 | no-good=0 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7061 | top1_exactK=0.5544
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'utilities'] | freq=0.0366 | hybrid=0.647 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+    *** Best: 15.064779 ***
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'banking'] | freq=0.0512 | hybrid=0.638 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 1 ---
+  Pool: 11 | exactK=11 | valid=9 | no-good=2 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6872 | top1_exactK=0.5622
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'oil_gas'] | freq=0.0480 | hybrid=0.606 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech'] | freq=0.0520 | hybrid=0.567 | mu_score=63.00
+    IPOPT: variance=11.922034 | ret_slack=-0.0000
+    *** Best: 11.922034 ***
+
+--- Iter 2 ---
+  Pool: 11 | exactK=11 | valid=7 | no-good=4 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6971 | top1_exactK=0.5574
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_disc'] | freq=0.0364 | hybrid=0.638 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'retail'] | freq=0.5574 | hybrid=0.642 | mu_score=57.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 3 ---
+  Pool: 11 | exactK=11 | valid=5 | no-good=6 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6737 | top1_exactK=0.5648
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'cons_stap'] | freq=0.0300 | hybrid=0.659 | mu_score=56.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'fintech'] | freq=0.0508 | hybrid=0.618 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 4 ---
+  Pool: 11 | exactK=11 | valid=3 | no-good=8 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7356 | top1_exactK=0.5424
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'insurance'] | freq=0.0480 | hybrid=0.647 | mu_score=58.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+  [1] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'medtech'] | freq=0.0588 | hybrid=0.623 | mu_score=60.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 5 ---
+  Pool: 11 | exactK=11 | valid=1 | no-good=10 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.6862 | top1_exactK=0.5618
+  [0] ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'renewables'] | freq=0.0398 | hybrid=0.618 | mu_score=59.00
+    IPOPT: variance=15.064779 | ret_slack=-0.0000
+
+--- Iter 6 ---
+  Pool: 11 | exactK=11 | valid=0 | no-good=11 | struct=0
+  Muestreo: unique=11 | entropy_exactK=1.7171 | top1_exactK=0.5504
+  Espacio agotado. Terminando.
+
+======================================================================
+SOLUCIÓN FINAL [QAOA_line_none | random_exactK]
+======================================================================
+  Activos  : ['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'biotech']
+  Sectores : {'tech': 3, 'healthcare': 2}
+  Varianza : 11.922034
+  Activos efectivos: 5
+  Gap      : +0.2880%
+  IPOPT    : 11 (ahorradas: 2200)
+  Resumen muestreo/solver: ipopt_calls_used=11
+line/none seed=9: unique=11 ent=0.2136 top1=0.5538 gap=0.288
+DONE

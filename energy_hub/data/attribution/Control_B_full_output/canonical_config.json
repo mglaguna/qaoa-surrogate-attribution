@@ -1,0 +1,100 @@
+{
+  "K": 6,
+  "N": 18,
+  "T": 6,
+  "arm_configs": {
+    "S0": {
+      "depth": 5,
+      "qaoa_steps": 10,
+      "restarts": 1,
+      "role": "instantaneous-capacity",
+      "selection_policy": "frequency_ranked",
+      "shots_per_restart": 5000,
+      "surrogate_type": "S0",
+      "total_shots": 5000
+    },
+    "S1": {
+      "depth": 10,
+      "qaoa_steps": 10,
+      "restarts": 3,
+      "role": "additive-economic",
+      "selection_policy": "frequency_ranked",
+      "shots_per_restart": 5000,
+      "surrogate_type": "S1",
+      "total_shots": 15000
+    },
+    "S1_5k": {
+      "depth": 10,
+      "qaoa_steps": 10,
+      "restarts": 1,
+      "role": "additive-economic (5k budget-matched control)",
+      "selection_policy": "frequency_ranked",
+      "shots_per_restart": 5000,
+      "surrogate_type": "S1",
+      "total_shots": 5000
+    },
+    "S2": {
+      "depth": 10,
+      "qaoa_steps": 10,
+      "restarts": 1,
+      "role": "temporal-physical-coverage",
+      "selection_policy": "frequency_ranked",
+      "shots_per_restart": 5000,
+      "surrogate_type": "S2",
+      "total_shots": 5000
+    },
+    "Uniform": {
+      "depth": 0,
+      "qaoa_steps": 0,
+      "restarts": 0,
+      "role": "exact-K random control",
+      "selection_policy": "uniform_random_seeded",
+      "shots_per_restart": 5000,
+      "surrogate_type": null,
+      "total_shots": 5000
+    }
+  },
+  "arms": [
+    "S0",
+    "S1",
+    "S2",
+    "Uniform"
+  ],
+  "budget_description": "common downstream evaluation budget",
+  "campaign_name": "energy_hub_canonical_v1",
+  "config_hash": "f27e69d3e7173d592450e4c86b322ae9e7d381c67d509a6dee055c8e1bb4c109",
+  "evaluation_mode": "exhaustive_reference_lookup",
+  "exhaustive_reference_path": "inputs\\energy_hub_exhaustive_classical_rows.csv",
+  "expected_surrogate_coefficient_hashes": {
+    "S0": "f6bdbc18c005e68abb00b9eaa76f589954735acda79bcb54efd3290c38298ba0",
+    "S1": "f57f11a2573ec94a0926e058534a5a4021b13272ac2b54576dc4eb153dcee616",
+    "S1_5k": "f57f11a2573ec94a0926e058534a5a4021b13272ac2b54576dc4eb153dcee616",
+    "S2": "089689535dfea9173c5d0948d6125f9cfed67553a4c3b56659f500f77661db95"
+  },
+  "expected_total_runs": 40,
+  "instance_hash": "206b9cdc32ca19056258f247fa107712ebb9e1303585cd7e4de312ea107b1a65",
+  "max_continuous_evaluations_per_run": 100,
+  "n_total_supports": 18564,
+  "primary_reporting_budget": 30,
+  "protocol_version": "EH_CANONICAL_V1",
+  "reporting_budgets": [
+    10,
+    30,
+    60,
+    100
+  ],
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "tac_tie_rel_tol": 1e-06,
+  "validation_seed": 100
+}

@@ -1,0 +1,16 @@
+{
+  "K": 4,
+  "N": 18,
+  "T": 6,
+  "TAC_star": 27054493.42763786,
+  "median_gap_to_TAC_star_pct": 0.0,
+  "median_percentile_B100": 16.666666666666668,
+  "median_uniform_best_TAC_B100": 27054493.42763786,
+  "n_feasible_population": 6,
+  "n_ipopt_attempted": 6,
+  "n_seeds": 10,
+  "n_seeds_with_feasible_solution": 10,
+  "n_structural_rejected": 3054,
+  "n_total_supports": 3060,
+  "uniform_b100_source": "recomputed_this_appendix"
+}

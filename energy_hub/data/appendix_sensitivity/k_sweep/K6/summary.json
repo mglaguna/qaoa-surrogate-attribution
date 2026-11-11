@@ -1,0 +1,16 @@
+{
+  "K": 6,
+  "N": 18,
+  "T": 6,
+  "TAC_star": 8775087.024891537,
+  "median_gap_to_TAC_star_pct": 38.39850935968753,
+  "median_percentile_B100": 0.9394931908291676,
+  "median_uniform_best_TAC_B100": 12144589.63746524,
+  "n_feasible_population": 5801,
+  "n_ipopt_attempted": 5931,
+  "n_seeds": 10,
+  "n_seeds_with_feasible_solution": 10,
+  "n_structural_rejected": 12633,
+  "n_total_supports": 18564,
+  "uniform_b100_source": "canonical_5k (frozen, reused)"
+}

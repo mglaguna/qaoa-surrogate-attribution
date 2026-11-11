@@ -1,0 +1,4 @@
+p,best_var_mean,best_var_std,best_var_min,best_var_max,best_var_count,gap_pct_mean,gap_pct_std,gap_pct_min,gap_pct_max,gap_pct_count,ipopt_used_mean,ipopt_used_std,ipopt_used_min,ipopt_used_max,ipopt_used_count
+1,12.1673,0.7757,11.922,14.375,10,2.3514,6.5251,0.288,20.9222,10,16.0,6.5659,6,21,10
+2,12.1518,0.1962,11.922,12.4018,10,2.2204,1.6503,0.288,4.3241,10,59.1,0.3162,59,60,10
+3,12.7196,0.2523,12.3904,12.9129,10,6.9969,2.1221,4.2276,8.6233,10,53.6,8.1541,37,59,10

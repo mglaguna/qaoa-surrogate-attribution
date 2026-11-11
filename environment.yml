@@ -1,0 +1,20 @@
+# Environment used to produce every result in this repository (Windows 10, x86-64).
+# Run QAOA computations with one BLAS/OpenMP thread (see README.md).
+name: qaoa-attribution
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.23
+  - pandas=2.3.1
+  - scipy=1.13.1
+  - matplotlib=3.9.1
+  - pillow=11.3.0
+  - pyomo=6.9.3
+  - ipopt=3.14.19
+  - cyipopt=1.6.1
+  - pip=25.2
+  - pip:
+      - numpy==1.26.4
+      - autograd==1.8.0
+      - pennylane==0.38.0
+      - pennylane-lightning==0.38.0

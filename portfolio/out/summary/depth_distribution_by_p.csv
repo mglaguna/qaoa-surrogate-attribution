@@ -1,0 +1,4 @@
+p,n_unique_exactK_mean,n_unique_exactK_std,n_unique_exactK_min,n_unique_exactK_max,n_unique_exactK_count,entropy_ratio_mean,entropy_ratio_std,entropy_ratio_min,entropy_ratio_max,entropy_ratio_count,top1_freq_mean,top1_freq_std,top1_freq_min,top1_freq_max,top1_freq_count
+1,15.5,6.8516,5,21,10,0.1846,0.1287,0.019,0.3344,10,0.5644,0.3358,0.1524,0.9786,10
+2,148.9,81.052,31,257,10,0.3865,0.0884,0.2707,0.5195,10,0.2294,0.0812,0.1272,0.3572,10
+3,125.4,95.7279,35,258,10,0.3298,0.1401,0.118,0.5033,10,0.366,0.2627,0.1052,0.8138,10

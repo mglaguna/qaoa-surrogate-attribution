@@ -1,0 +1,13 @@
+{
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "description": "Audited attribution pipeline: E(y) -> p(y) -> structural eligibility -> V(y), with the nested downstream budget.",
+  "figure": "figure1_pipeline_schematic",
+  "outputs": [
+    "figures\\main\\figure1_pipeline_schematic.png",
+    "figures\\main\\figure1_pipeline_schematic.pdf",
+    "figures\\main\\figure1_pipeline_schematic.svg",
+    "figures\\main\\figure1_pipeline_schematic_preview_gray.png"
+  ],
+  "protocol_version": "EH_CANONICAL_V1",
+  "source_files": []
+}

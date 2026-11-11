@@ -1,0 +1,15 @@
+{
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "description": "Exact-K surrogate energy landscapes: (A) centered energy distributions (Eq. 36, counts), (B) pairwise Spearman rank correlation, (C) top-k Jaccard overlap.",
+  "figure": "figure2_surrogate_landscapes",
+  "outputs": [
+    "figures\\main\\figure2_surrogate_landscapes.png",
+    "figures\\main\\figure2_surrogate_landscapes.pdf",
+    "figures\\main\\figure2_surrogate_landscapes.svg",
+    "figures\\main\\figure2_surrogate_landscapes_preview_gray.png"
+  ],
+  "protocol_version": "EH_CANONICAL_V1",
+  "source_files": [
+    "code/hybrid_pipeline/benchmarks/energy_hub/* (fresh enumeration)"
+  ]
+}

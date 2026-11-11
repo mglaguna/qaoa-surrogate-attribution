@@ -1,0 +1,15 @@
+{
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "description": "Candidate flow: (A) median unique exact-K, structurally eligible, evaluated (stored-value lookup, <=100) and feasible evaluated supports per seed, log scale; (B) median fraction of unique supports passing the structural screen, by arm.",
+  "figure": "figure4_candidate_flow",
+  "outputs": [
+    "figures\\main\\figure4_candidate_flow.png",
+    "figures\\main\\figure4_candidate_flow.pdf",
+    "figures\\main\\figure4_candidate_flow.svg",
+    "figures\\main\\figure4_candidate_flow_preview_gray.png"
+  ],
+  "protocol_version": "EH_CANONICAL_V1",
+  "source_files": [
+    "outputs/energy_hub_canonical_v1/candidate_flow.csv"
+  ]
+}

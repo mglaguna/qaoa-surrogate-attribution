@@ -1,0 +1,689 @@
+[Instancia fija N=15, K=5, R=13]
+  Activos con mu >= R=13: ['tech_growth', 'tech_semis', 'biotech'] (3 de 15)
+  return_support_ceiling excluye: C(12,5) = 792 de 3003 (26.37%)
+[Instancia fija N=15, K=5, R=13]
+  Activos con mu >= R=13: ['tech_growth', 'tech_semis', 'biotech'] (3 de 15)
+  return_support_ceiling excluye: C(12,5) = 792 de 3003 (26.37%)
+[Fase3] Baseline cargado: best_var=11.887801
+
+[EXP-3 | C3] capped_budget
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5574 | top1_exactK=0.8552
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5405 | top1_exactK=0.8594
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5332 | top1_exactK=0.8630
+  Muestreo: unique=6 | exactK=6 | entropy_exactK=0.5304 | top1_exactK=0.8644
+  Espacio agotado iter 4 (ipopt_total=7).
+  [QAOA_surrogate|ranked_hybrid] best=11.922034 gap=0.288% ipopt=7/20
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1521 | top1_exactK=0.9786
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1635 | top1_exactK=0.9766
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1712 | top1_exactK=0.9754
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1562 | top1_exactK=0.9778
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1596 | top1_exactK=0.9774
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1657 | top1_exactK=0.9764
+  Espacio agotado iter 6 (ipopt_total=11).
+  [QAOA_surrogate|ranked_hybrid] best=14.374995 gap=20.922% ipopt=11/20
+  Muestreo: unique=8 | exactK=8 | entropy_exactK=0.5396 | top1_exactK=0.8608
+  Muestreo: unique=8 | exactK=8 | entropy_exactK=0.5624 | top1_exactK=0.8532
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5385 | top1_exactK=0.8600
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5347 | top1_exactK=0.8632
+  Espacio agotado iter 4 (ipopt_total=8).
+  [QAOA_surrogate|ranked_hybrid] best=11.922034 gap=0.288% ipopt=8/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5303 | top1_exactK=0.2488
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5435 | top1_exactK=0.2370
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5284 | top1_exactK=0.2386
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5366 | top1_exactK=0.2376
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5490 | top1_exactK=0.2402
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5241 | top1_exactK=0.2480
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5290 | top1_exactK=0.2498
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5202 | top1_exactK=0.2562
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5561 | top1_exactK=0.2300
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5535 | top1_exactK=0.2254
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_hybrid] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1673 | top1_exactK=0.4210
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1308 | top1_exactK=0.4320
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1363 | top1_exactK=0.4266
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1476 | top1_exactK=0.4282
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1402 | top1_exactK=0.4262
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1505 | top1_exactK=0.4248
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1340 | top1_exactK=0.4304
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1493 | top1_exactK=0.4272
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1283 | top1_exactK=0.4372
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1786 | top1_exactK=0.4148
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_hybrid] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3481 | top1_exactK=0.6990
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2809 | top1_exactK=0.7166
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.3337 | top1_exactK=0.7004
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3502 | top1_exactK=0.6992
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2943 | top1_exactK=0.7150
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3156 | top1_exactK=0.7076
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2727 | top1_exactK=0.7194
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3391 | top1_exactK=0.7008
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2759 | top1_exactK=0.7198
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2973 | top1_exactK=0.7112
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_hybrid] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6775 | top1_exactK=0.1524
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6556 | top1_exactK=0.1486
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6677 | top1_exactK=0.1452
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6501 | top1_exactK=0.1492
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6730 | top1_exactK=0.1578
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6549 | top1_exactK=0.1536
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6694 | top1_exactK=0.1510
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6651 | top1_exactK=0.1458
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6754 | top1_exactK=0.1528
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6550 | top1_exactK=0.1532
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_hybrid] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6394 | top1_exactK=0.1738
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6402 | top1_exactK=0.1746
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6044 | top1_exactK=0.1874
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6204 | top1_exactK=0.1828
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6438 | top1_exactK=0.1750
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6355 | top1_exactK=0.1770
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6288 | top1_exactK=0.1778
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6218 | top1_exactK=0.1762
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6311 | top1_exactK=0.1714
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6361 | top1_exactK=0.1722
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_hybrid] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=19 | exactK=19 | entropy_exactK=1.9148 | top1_exactK=0.3092
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9282 | top1_exactK=0.3068
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.9033 | top1_exactK=0.3168
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.9405 | top1_exactK=0.3038
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9237 | top1_exactK=0.3130
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9476 | top1_exactK=0.3036
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.9458 | top1_exactK=0.3032
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9462 | top1_exactK=0.3098
+  Muestreo: unique=19 | exactK=19 | entropy_exactK=1.9282 | top1_exactK=0.3052
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9377 | top1_exactK=0.3002
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_hybrid] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=5 | exactK=5 | entropy_exactK=0.2551 | top1_exactK=0.9452
+  Muestreo: unique=5 | exactK=5 | entropy_exactK=0.2925 | top1_exactK=0.9344
+  Muestreo: unique=5 | exactK=5 | entropy_exactK=0.3104 | top1_exactK=0.9304
+  Espacio agotado iter 3 (ipopt_total=5).
+  [QAOA_surrogate|ranked_hybrid] best=11.922034 gap=0.288% ipopt=5/20
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5574 | top1_exactK=0.8552
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5405 | top1_exactK=0.8594
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5332 | top1_exactK=0.8630
+  Muestreo: unique=6 | exactK=6 | entropy_exactK=0.5304 | top1_exactK=0.8644
+  Espacio agotado iter 4 (ipopt_total=7).
+  [QAOA_surrogate|ranked_mu] best=11.922034 gap=0.288% ipopt=7/20
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1521 | top1_exactK=0.9786
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1635 | top1_exactK=0.9766
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1712 | top1_exactK=0.9754
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1562 | top1_exactK=0.9778
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1596 | top1_exactK=0.9774
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1657 | top1_exactK=0.9764
+  Espacio agotado iter 6 (ipopt_total=11).
+  [QAOA_surrogate|ranked_mu] best=14.374995 gap=20.922% ipopt=11/20
+  Muestreo: unique=8 | exactK=8 | entropy_exactK=0.5396 | top1_exactK=0.8608
+  Muestreo: unique=8 | exactK=8 | entropy_exactK=0.5624 | top1_exactK=0.8532
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5385 | top1_exactK=0.8600
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5347 | top1_exactK=0.8632
+  Espacio agotado iter 4 (ipopt_total=8).
+  [QAOA_surrogate|ranked_mu] best=11.922034 gap=0.288% ipopt=8/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5303 | top1_exactK=0.2488
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5435 | top1_exactK=0.2370
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5284 | top1_exactK=0.2386
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5366 | top1_exactK=0.2376
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5490 | top1_exactK=0.2402
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5241 | top1_exactK=0.2480
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5290 | top1_exactK=0.2498
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5202 | top1_exactK=0.2562
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5561 | top1_exactK=0.2300
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5535 | top1_exactK=0.2254
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_mu] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1673 | top1_exactK=0.4210
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1308 | top1_exactK=0.4320
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1363 | top1_exactK=0.4266
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1476 | top1_exactK=0.4282
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1402 | top1_exactK=0.4262
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1505 | top1_exactK=0.4248
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1340 | top1_exactK=0.4304
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1493 | top1_exactK=0.4272
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1283 | top1_exactK=0.4372
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1786 | top1_exactK=0.4148
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_mu] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3481 | top1_exactK=0.6990
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2809 | top1_exactK=0.7166
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.3337 | top1_exactK=0.7004
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3502 | top1_exactK=0.6992
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2943 | top1_exactK=0.7150
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3156 | top1_exactK=0.7076
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2727 | top1_exactK=0.7194
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3391 | top1_exactK=0.7008
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2759 | top1_exactK=0.7198
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2973 | top1_exactK=0.7112
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_mu] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6775 | top1_exactK=0.1524
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6556 | top1_exactK=0.1486
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6677 | top1_exactK=0.1452
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6501 | top1_exactK=0.1492
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6730 | top1_exactK=0.1578
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6549 | top1_exactK=0.1536
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6694 | top1_exactK=0.1510
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6651 | top1_exactK=0.1458
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6754 | top1_exactK=0.1528
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6550 | top1_exactK=0.1532
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_mu] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6394 | top1_exactK=0.1738
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6402 | top1_exactK=0.1746
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6044 | top1_exactK=0.1874
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6204 | top1_exactK=0.1828
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6438 | top1_exactK=0.1750
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6355 | top1_exactK=0.1770
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6288 | top1_exactK=0.1778
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6218 | top1_exactK=0.1762
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6311 | top1_exactK=0.1714
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6361 | top1_exactK=0.1722
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_mu] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=19 | exactK=19 | entropy_exactK=1.9148 | top1_exactK=0.3092
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9282 | top1_exactK=0.3068
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.9033 | top1_exactK=0.3168
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.9405 | top1_exactK=0.3038
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9237 | top1_exactK=0.3130
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9476 | top1_exactK=0.3036
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.9458 | top1_exactK=0.3032
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9462 | top1_exactK=0.3098
+  Muestreo: unique=19 | exactK=19 | entropy_exactK=1.9282 | top1_exactK=0.3052
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9377 | top1_exactK=0.3002
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|ranked_mu] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=5 | exactK=5 | entropy_exactK=0.2551 | top1_exactK=0.9452
+  Muestreo: unique=5 | exactK=5 | entropy_exactK=0.2925 | top1_exactK=0.9344
+  Muestreo: unique=5 | exactK=5 | entropy_exactK=0.3104 | top1_exactK=0.9304
+  Espacio agotado iter 3 (ipopt_total=5).
+  [QAOA_surrogate|ranked_mu] best=11.922034 gap=0.288% ipopt=5/20
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5574 | top1_exactK=0.8552
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5405 | top1_exactK=0.8594
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5332 | top1_exactK=0.8630
+  Muestreo: unique=6 | exactK=6 | entropy_exactK=0.5304 | top1_exactK=0.8644
+  Espacio agotado iter 4 (ipopt_total=7).
+  [QAOA_surrogate|random_exactK] best=11.922034 gap=0.288% ipopt=7/20
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1521 | top1_exactK=0.9786
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1635 | top1_exactK=0.9766
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1712 | top1_exactK=0.9754
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1562 | top1_exactK=0.9778
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1596 | top1_exactK=0.9774
+  Muestreo: unique=11 | exactK=11 | entropy_exactK=0.1657 | top1_exactK=0.9764
+  Espacio agotado iter 6 (ipopt_total=11).
+  [QAOA_surrogate|random_exactK] best=14.374995 gap=20.922% ipopt=11/20
+  Muestreo: unique=8 | exactK=8 | entropy_exactK=0.5396 | top1_exactK=0.8608
+  Muestreo: unique=8 | exactK=8 | entropy_exactK=0.5624 | top1_exactK=0.8532
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5385 | top1_exactK=0.8600
+  Muestreo: unique=7 | exactK=7 | entropy_exactK=0.5347 | top1_exactK=0.8632
+  Espacio agotado iter 4 (ipopt_total=7).
+  [QAOA_surrogate|random_exactK] best=11.922034 gap=0.288% ipopt=7/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5303 | top1_exactK=0.2488
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5435 | top1_exactK=0.2370
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5284 | top1_exactK=0.2386
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5366 | top1_exactK=0.2376
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5490 | top1_exactK=0.2402
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5241 | top1_exactK=0.2480
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5290 | top1_exactK=0.2498
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5202 | top1_exactK=0.2562
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5561 | top1_exactK=0.2300
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.5535 | top1_exactK=0.2254
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|random_exactK] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1673 | top1_exactK=0.4210
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1308 | top1_exactK=0.4320
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1363 | top1_exactK=0.4266
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1476 | top1_exactK=0.4282
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1402 | top1_exactK=0.4262
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1505 | top1_exactK=0.4248
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1340 | top1_exactK=0.4304
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1493 | top1_exactK=0.4272
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1283 | top1_exactK=0.4372
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.1786 | top1_exactK=0.4148
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|random_exactK] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3481 | top1_exactK=0.6990
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2809 | top1_exactK=0.7166
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.3337 | top1_exactK=0.7004
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3502 | top1_exactK=0.6992
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2943 | top1_exactK=0.7150
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3156 | top1_exactK=0.7076
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2727 | top1_exactK=0.7194
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.3391 | top1_exactK=0.7008
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2759 | top1_exactK=0.7198
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.2973 | top1_exactK=0.7112
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|random_exactK] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6775 | top1_exactK=0.1524
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6556 | top1_exactK=0.1486
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6677 | top1_exactK=0.1452
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6501 | top1_exactK=0.1492
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6730 | top1_exactK=0.1578
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6549 | top1_exactK=0.1536
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6694 | top1_exactK=0.1510
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6651 | top1_exactK=0.1458
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6754 | top1_exactK=0.1528
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6550 | top1_exactK=0.1532
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|random_exactK] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6394 | top1_exactK=0.1738
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6402 | top1_exactK=0.1746
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6044 | top1_exactK=0.1874
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6204 | top1_exactK=0.1828
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6438 | top1_exactK=0.1750
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6355 | top1_exactK=0.1770
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6288 | top1_exactK=0.1778
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6218 | top1_exactK=0.1762
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6311 | top1_exactK=0.1714
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=2.6361 | top1_exactK=0.1722
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|random_exactK] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=19 | exactK=19 | entropy_exactK=1.9148 | top1_exactK=0.3092
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9282 | top1_exactK=0.3068
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.9033 | top1_exactK=0.3168
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.9405 | top1_exactK=0.3038
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9237 | top1_exactK=0.3130
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9476 | top1_exactK=0.3036
+  Muestreo: unique=21 | exactK=21 | entropy_exactK=1.9458 | top1_exactK=0.3032
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9462 | top1_exactK=0.3098
+  Muestreo: unique=19 | exactK=19 | entropy_exactK=1.9282 | top1_exactK=0.3052
+  Muestreo: unique=20 | exactK=20 | entropy_exactK=1.9377 | top1_exactK=0.3002
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [QAOA_surrogate|random_exactK] best=11.922034 gap=0.288% ipopt=20/20
+  Muestreo: unique=5 | exactK=5 | entropy_exactK=0.2551 | top1_exactK=0.9452
+  Muestreo: unique=5 | exactK=5 | entropy_exactK=0.2925 | top1_exactK=0.9344
+  Muestreo: unique=5 | exactK=5 | entropy_exactK=0.3104 | top1_exactK=0.9304
+  Espacio agotado iter 3 (ipopt_total=5).
+  [QAOA_surrogate|random_exactK] best=11.922034 gap=0.288% ipopt=5/20
+  Muestreo: unique=2440 | exactK=2440 | entropy_exactK=7.6618 | top1_exactK=0.0018
+  Muestreo: unique=2393 | exactK=2393 | entropy_exactK=7.6428 | top1_exactK=0.0016
+  Muestreo: unique=2420 | exactK=2420 | entropy_exactK=7.6530 | top1_exactK=0.0016
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6678 | top1_exactK=0.0016
+  Muestreo: unique=2429 | exactK=2429 | entropy_exactK=7.6600 | top1_exactK=0.0016
+  Muestreo: unique=2441 | exactK=2441 | entropy_exactK=7.6633 | top1_exactK=0.0016
+  Muestreo: unique=2464 | exactK=2464 | entropy_exactK=7.6765 | top1_exactK=0.0014
+  Muestreo: unique=2411 | exactK=2411 | entropy_exactK=7.6472 | top1_exactK=0.0014
+  Muestreo: unique=2414 | exactK=2414 | entropy_exactK=7.6534 | top1_exactK=0.0014
+  Muestreo: unique=2415 | exactK=2415 | entropy_exactK=7.6542 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_hybrid] best=16.088885 gap=35.339% ipopt=20/20
+  Muestreo: unique=2413 | exactK=2413 | entropy_exactK=7.6561 | top1_exactK=0.0016
+  Muestreo: unique=2434 | exactK=2434 | entropy_exactK=7.6616 | top1_exactK=0.0014
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6605 | top1_exactK=0.0016
+  Muestreo: unique=2442 | exactK=2442 | entropy_exactK=7.6659 | top1_exactK=0.0016
+  Muestreo: unique=2400 | exactK=2400 | entropy_exactK=7.6433 | top1_exactK=0.0016
+  Muestreo: unique=2416 | exactK=2416 | entropy_exactK=7.6533 | top1_exactK=0.0014
+  Muestreo: unique=2394 | exactK=2394 | entropy_exactK=7.6411 | top1_exactK=0.0016
+  Muestreo: unique=2423 | exactK=2423 | entropy_exactK=7.6531 | top1_exactK=0.0016
+  Muestreo: unique=2429 | exactK=2429 | entropy_exactK=7.6610 | top1_exactK=0.0014
+  Muestreo: unique=2418 | exactK=2418 | entropy_exactK=7.6535 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_hybrid] best=16.088885 gap=35.339% ipopt=20/20
+  Muestreo: unique=2459 | exactK=2459 | entropy_exactK=7.6737 | top1_exactK=0.0018
+  Muestreo: unique=2428 | exactK=2428 | entropy_exactK=7.6577 | top1_exactK=0.0016
+  Muestreo: unique=2450 | exactK=2450 | entropy_exactK=7.6715 | top1_exactK=0.0016
+  Muestreo: unique=2419 | exactK=2419 | entropy_exactK=7.6585 | top1_exactK=0.0016
+  Muestreo: unique=2422 | exactK=2422 | entropy_exactK=7.6548 | top1_exactK=0.0014
+  Muestreo: unique=2435 | exactK=2435 | entropy_exactK=7.6608 | top1_exactK=0.0014
+  Muestreo: unique=2444 | exactK=2444 | entropy_exactK=7.6571 | top1_exactK=0.0018
+  Muestreo: unique=2470 | exactK=2470 | entropy_exactK=7.6726 | top1_exactK=0.0016
+  Muestreo: unique=2443 | exactK=2443 | entropy_exactK=7.6659 | top1_exactK=0.0016
+  Muestreo: unique=2436 | exactK=2436 | entropy_exactK=7.6619 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_hybrid] best=16.088885 gap=35.339% ipopt=20/20
+  Muestreo: unique=2447 | exactK=2447 | entropy_exactK=7.6692 | top1_exactK=0.0014
+  Muestreo: unique=2452 | exactK=2452 | entropy_exactK=7.6688 | top1_exactK=0.0016
+  Muestreo: unique=2455 | exactK=2455 | entropy_exactK=7.6719 | top1_exactK=0.0014
+  Muestreo: unique=2425 | exactK=2425 | entropy_exactK=7.6526 | top1_exactK=0.0016
+  Muestreo: unique=2439 | exactK=2439 | entropy_exactK=7.6584 | top1_exactK=0.0016
+  Muestreo: unique=2435 | exactK=2435 | entropy_exactK=7.6608 | top1_exactK=0.0014
+  Muestreo: unique=2448 | exactK=2448 | entropy_exactK=7.6669 | top1_exactK=0.0016
+  Muestreo: unique=2436 | exactK=2436 | entropy_exactK=7.6556 | top1_exactK=0.0018
+  Muestreo: unique=2419 | exactK=2419 | entropy_exactK=7.6546 | top1_exactK=0.0016
+  Muestreo: unique=2431 | exactK=2431 | entropy_exactK=7.6582 | top1_exactK=0.0018
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_hybrid] best=16.088885 gap=35.339% ipopt=20/20
+  Muestreo: unique=2442 | exactK=2442 | entropy_exactK=7.6641 | top1_exactK=0.0014
+  Muestreo: unique=2421 | exactK=2421 | entropy_exactK=7.6515 | top1_exactK=0.0018
+  Muestreo: unique=2434 | exactK=2434 | entropy_exactK=7.6585 | top1_exactK=0.0014
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6654 | top1_exactK=0.0016
+  Muestreo: unique=2415 | exactK=2415 | entropy_exactK=7.6540 | top1_exactK=0.0016
+  Muestreo: unique=2421 | exactK=2421 | entropy_exactK=7.6558 | top1_exactK=0.0016
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6713 | top1_exactK=0.0018
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6713 | top1_exactK=0.0014
+  Muestreo: unique=2437 | exactK=2437 | entropy_exactK=7.6674 | top1_exactK=0.0014
+  Muestreo: unique=2420 | exactK=2420 | entropy_exactK=7.6540 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_hybrid] best=16.088885 gap=35.339% ipopt=20/20
+  Muestreo: unique=2437 | exactK=2437 | entropy_exactK=7.6640 | top1_exactK=0.0014
+  Muestreo: unique=2423 | exactK=2423 | entropy_exactK=7.6574 | top1_exactK=0.0014
+  Muestreo: unique=2422 | exactK=2422 | entropy_exactK=7.6633 | top1_exactK=0.0016
+  Muestreo: unique=2426 | exactK=2426 | entropy_exactK=7.6553 | top1_exactK=0.0016
+  Muestreo: unique=2447 | exactK=2447 | entropy_exactK=7.6622 | top1_exactK=0.0016
+  Muestreo: unique=2461 | exactK=2461 | entropy_exactK=7.6683 | top1_exactK=0.0014
+  Muestreo: unique=2441 | exactK=2441 | entropy_exactK=7.6608 | top1_exactK=0.0018
+  Muestreo: unique=2447 | exactK=2447 | entropy_exactK=7.6646 | top1_exactK=0.0016
+  Muestreo: unique=2409 | exactK=2409 | entropy_exactK=7.6465 | top1_exactK=0.0016
+  Muestreo: unique=2432 | exactK=2432 | entropy_exactK=7.6548 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_hybrid] best=16.088885 gap=35.339% ipopt=20/20
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6675 | top1_exactK=0.0014
+  Muestreo: unique=2419 | exactK=2419 | entropy_exactK=7.6573 | top1_exactK=0.0018
+  Muestreo: unique=2436 | exactK=2436 | entropy_exactK=7.6650 | top1_exactK=0.0016
+  Muestreo: unique=2450 | exactK=2450 | entropy_exactK=7.6662 | top1_exactK=0.0016
+  Muestreo: unique=2441 | exactK=2441 | entropy_exactK=7.6671 | top1_exactK=0.0016
+  Muestreo: unique=2443 | exactK=2443 | entropy_exactK=7.6690 | top1_exactK=0.0016
+  Muestreo: unique=2431 | exactK=2431 | entropy_exactK=7.6596 | top1_exactK=0.0016
+  Muestreo: unique=2430 | exactK=2430 | entropy_exactK=7.6541 | top1_exactK=0.0018
+  Muestreo: unique=2467 | exactK=2467 | entropy_exactK=7.6745 | top1_exactK=0.0018
+  Muestreo: unique=2426 | exactK=2426 | entropy_exactK=7.6562 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_hybrid] best=16.088885 gap=35.339% ipopt=20/20
+  Muestreo: unique=2437 | exactK=2437 | entropy_exactK=7.6631 | top1_exactK=0.0016
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6581 | top1_exactK=0.0018
+  Muestreo: unique=2419 | exactK=2419 | entropy_exactK=7.6511 | top1_exactK=0.0016
+  Muestreo: unique=2421 | exactK=2421 | entropy_exactK=7.6525 | top1_exactK=0.0016
+  Muestreo: unique=2430 | exactK=2430 | entropy_exactK=7.6624 | top1_exactK=0.0016
+  Muestreo: unique=2445 | exactK=2445 | entropy_exactK=7.6630 | top1_exactK=0.0016
+  Muestreo: unique=2425 | exactK=2425 | entropy_exactK=7.6580 | top1_exactK=0.0016
+  Muestreo: unique=2433 | exactK=2433 | entropy_exactK=7.6648 | top1_exactK=0.0016
+  Muestreo: unique=2450 | exactK=2450 | entropy_exactK=7.6735 | top1_exactK=0.0014
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6654 | top1_exactK=0.0014
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_hybrid] best=16.088885 gap=35.339% ipopt=20/20
+  Muestreo: unique=2449 | exactK=2449 | entropy_exactK=7.6692 | top1_exactK=0.0014
+  Muestreo: unique=2424 | exactK=2424 | entropy_exactK=7.6667 | top1_exactK=0.0018
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6605 | top1_exactK=0.0016
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6574 | top1_exactK=0.0014
+  Muestreo: unique=2424 | exactK=2424 | entropy_exactK=7.6531 | top1_exactK=0.0016
+  Muestreo: unique=2423 | exactK=2423 | entropy_exactK=7.6576 | top1_exactK=0.0014
+  Muestreo: unique=2422 | exactK=2422 | entropy_exactK=7.6586 | top1_exactK=0.0016
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6633 | top1_exactK=0.0014
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6647 | top1_exactK=0.0016
+  Muestreo: unique=2463 | exactK=2463 | entropy_exactK=7.6744 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_hybrid] best=16.088885 gap=35.339% ipopt=20/20
+  Muestreo: unique=2436 | exactK=2436 | entropy_exactK=7.6660 | top1_exactK=0.0016
+  Muestreo: unique=2445 | exactK=2445 | entropy_exactK=7.6626 | top1_exactK=0.0016
+  Muestreo: unique=2433 | exactK=2433 | entropy_exactK=7.6628 | top1_exactK=0.0016
+  Muestreo: unique=2424 | exactK=2424 | entropy_exactK=7.6512 | top1_exactK=0.0016
+  Muestreo: unique=2425 | exactK=2425 | entropy_exactK=7.6610 | top1_exactK=0.0016
+  Muestreo: unique=2449 | exactK=2449 | entropy_exactK=7.6652 | top1_exactK=0.0016
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6714 | top1_exactK=0.0016
+  Muestreo: unique=2410 | exactK=2410 | entropy_exactK=7.6486 | top1_exactK=0.0016
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6704 | top1_exactK=0.0016
+  Muestreo: unique=2427 | exactK=2427 | entropy_exactK=7.6549 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_hybrid] best=16.088885 gap=35.339% ipopt=20/20
+  Muestreo: unique=2440 | exactK=2440 | entropy_exactK=7.6618 | top1_exactK=0.0018
+  Muestreo: unique=2393 | exactK=2393 | entropy_exactK=7.6428 | top1_exactK=0.0016
+  Muestreo: unique=2420 | exactK=2420 | entropy_exactK=7.6530 | top1_exactK=0.0016
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6678 | top1_exactK=0.0016
+  Muestreo: unique=2429 | exactK=2429 | entropy_exactK=7.6600 | top1_exactK=0.0016
+  Muestreo: unique=2441 | exactK=2441 | entropy_exactK=7.6633 | top1_exactK=0.0016
+  Muestreo: unique=2464 | exactK=2464 | entropy_exactK=7.6765 | top1_exactK=0.0014
+  Muestreo: unique=2411 | exactK=2411 | entropy_exactK=7.6472 | top1_exactK=0.0014
+  Muestreo: unique=2414 | exactK=2414 | entropy_exactK=7.6534 | top1_exactK=0.0014
+  Muestreo: unique=2415 | exactK=2415 | entropy_exactK=7.6542 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_mu] best=11.887801 gap=0.000% ipopt=20/20
+  Muestreo: unique=2413 | exactK=2413 | entropy_exactK=7.6561 | top1_exactK=0.0016
+  Muestreo: unique=2434 | exactK=2434 | entropy_exactK=7.6616 | top1_exactK=0.0014
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6605 | top1_exactK=0.0016
+  Muestreo: unique=2442 | exactK=2442 | entropy_exactK=7.6659 | top1_exactK=0.0016
+  Muestreo: unique=2400 | exactK=2400 | entropy_exactK=7.6433 | top1_exactK=0.0016
+  Muestreo: unique=2416 | exactK=2416 | entropy_exactK=7.6533 | top1_exactK=0.0014
+  Muestreo: unique=2394 | exactK=2394 | entropy_exactK=7.6411 | top1_exactK=0.0016
+  Muestreo: unique=2423 | exactK=2423 | entropy_exactK=7.6531 | top1_exactK=0.0016
+  Muestreo: unique=2429 | exactK=2429 | entropy_exactK=7.6610 | top1_exactK=0.0014
+  Muestreo: unique=2418 | exactK=2418 | entropy_exactK=7.6535 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_mu] best=11.887801 gap=0.000% ipopt=20/20
+  Muestreo: unique=2459 | exactK=2459 | entropy_exactK=7.6737 | top1_exactK=0.0018
+  Muestreo: unique=2428 | exactK=2428 | entropy_exactK=7.6577 | top1_exactK=0.0016
+  Muestreo: unique=2450 | exactK=2450 | entropy_exactK=7.6715 | top1_exactK=0.0016
+  Muestreo: unique=2419 | exactK=2419 | entropy_exactK=7.6585 | top1_exactK=0.0016
+  Muestreo: unique=2422 | exactK=2422 | entropy_exactK=7.6548 | top1_exactK=0.0014
+  Muestreo: unique=2435 | exactK=2435 | entropy_exactK=7.6608 | top1_exactK=0.0014
+  Muestreo: unique=2444 | exactK=2444 | entropy_exactK=7.6571 | top1_exactK=0.0018
+  Muestreo: unique=2470 | exactK=2470 | entropy_exactK=7.6726 | top1_exactK=0.0016
+  Muestreo: unique=2443 | exactK=2443 | entropy_exactK=7.6659 | top1_exactK=0.0016
+  Muestreo: unique=2436 | exactK=2436 | entropy_exactK=7.6619 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_mu] best=11.887801 gap=0.000% ipopt=20/20
+  Muestreo: unique=2447 | exactK=2447 | entropy_exactK=7.6692 | top1_exactK=0.0014
+  Muestreo: unique=2452 | exactK=2452 | entropy_exactK=7.6688 | top1_exactK=0.0016
+  Muestreo: unique=2455 | exactK=2455 | entropy_exactK=7.6719 | top1_exactK=0.0014
+  Muestreo: unique=2425 | exactK=2425 | entropy_exactK=7.6526 | top1_exactK=0.0016
+  Muestreo: unique=2439 | exactK=2439 | entropy_exactK=7.6584 | top1_exactK=0.0016
+  Muestreo: unique=2435 | exactK=2435 | entropy_exactK=7.6608 | top1_exactK=0.0014
+  Muestreo: unique=2448 | exactK=2448 | entropy_exactK=7.6669 | top1_exactK=0.0016
+  Muestreo: unique=2436 | exactK=2436 | entropy_exactK=7.6556 | top1_exactK=0.0018
+  Muestreo: unique=2419 | exactK=2419 | entropy_exactK=7.6546 | top1_exactK=0.0016
+  Muestreo: unique=2431 | exactK=2431 | entropy_exactK=7.6582 | top1_exactK=0.0018
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_mu] best=11.887801 gap=0.000% ipopt=20/20
+  Muestreo: unique=2442 | exactK=2442 | entropy_exactK=7.6641 | top1_exactK=0.0014
+  Muestreo: unique=2421 | exactK=2421 | entropy_exactK=7.6515 | top1_exactK=0.0018
+  Muestreo: unique=2434 | exactK=2434 | entropy_exactK=7.6585 | top1_exactK=0.0014
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6654 | top1_exactK=0.0016
+  Muestreo: unique=2415 | exactK=2415 | entropy_exactK=7.6540 | top1_exactK=0.0016
+  Muestreo: unique=2421 | exactK=2421 | entropy_exactK=7.6558 | top1_exactK=0.0016
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6713 | top1_exactK=0.0018
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6713 | top1_exactK=0.0014
+  Muestreo: unique=2437 | exactK=2437 | entropy_exactK=7.6674 | top1_exactK=0.0014
+  Muestreo: unique=2420 | exactK=2420 | entropy_exactK=7.6540 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_mu] best=11.887801 gap=0.000% ipopt=20/20
+  Muestreo: unique=2437 | exactK=2437 | entropy_exactK=7.6640 | top1_exactK=0.0014
+  Muestreo: unique=2423 | exactK=2423 | entropy_exactK=7.6574 | top1_exactK=0.0014
+  Muestreo: unique=2422 | exactK=2422 | entropy_exactK=7.6633 | top1_exactK=0.0016
+  Muestreo: unique=2426 | exactK=2426 | entropy_exactK=7.6553 | top1_exactK=0.0016
+  Muestreo: unique=2447 | exactK=2447 | entropy_exactK=7.6622 | top1_exactK=0.0016
+  Muestreo: unique=2461 | exactK=2461 | entropy_exactK=7.6683 | top1_exactK=0.0014
+  Muestreo: unique=2441 | exactK=2441 | entropy_exactK=7.6608 | top1_exactK=0.0018
+  Muestreo: unique=2447 | exactK=2447 | entropy_exactK=7.6646 | top1_exactK=0.0016
+  Muestreo: unique=2409 | exactK=2409 | entropy_exactK=7.6465 | top1_exactK=0.0016
+  Muestreo: unique=2432 | exactK=2432 | entropy_exactK=7.6548 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_mu] best=11.887801 gap=0.000% ipopt=20/20
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6675 | top1_exactK=0.0014
+  Muestreo: unique=2419 | exactK=2419 | entropy_exactK=7.6573 | top1_exactK=0.0018
+  Muestreo: unique=2436 | exactK=2436 | entropy_exactK=7.6650 | top1_exactK=0.0016
+  Muestreo: unique=2450 | exactK=2450 | entropy_exactK=7.6662 | top1_exactK=0.0016
+  Muestreo: unique=2441 | exactK=2441 | entropy_exactK=7.6671 | top1_exactK=0.0016
+  Muestreo: unique=2443 | exactK=2443 | entropy_exactK=7.6690 | top1_exactK=0.0016
+  Muestreo: unique=2431 | exactK=2431 | entropy_exactK=7.6596 | top1_exactK=0.0016
+  Muestreo: unique=2430 | exactK=2430 | entropy_exactK=7.6541 | top1_exactK=0.0018
+  Muestreo: unique=2467 | exactK=2467 | entropy_exactK=7.6745 | top1_exactK=0.0018
+  Muestreo: unique=2426 | exactK=2426 | entropy_exactK=7.6562 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_mu] best=11.887801 gap=0.000% ipopt=20/20
+  Muestreo: unique=2437 | exactK=2437 | entropy_exactK=7.6631 | top1_exactK=0.0016
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6581 | top1_exactK=0.0018
+  Muestreo: unique=2419 | exactK=2419 | entropy_exactK=7.6511 | top1_exactK=0.0016
+  Muestreo: unique=2421 | exactK=2421 | entropy_exactK=7.6525 | top1_exactK=0.0016
+  Muestreo: unique=2430 | exactK=2430 | entropy_exactK=7.6624 | top1_exactK=0.0016
+  Muestreo: unique=2445 | exactK=2445 | entropy_exactK=7.6630 | top1_exactK=0.0016
+  Muestreo: unique=2425 | exactK=2425 | entropy_exactK=7.6580 | top1_exactK=0.0016
+  Muestreo: unique=2433 | exactK=2433 | entropy_exactK=7.6648 | top1_exactK=0.0016
+  Muestreo: unique=2450 | exactK=2450 | entropy_exactK=7.6735 | top1_exactK=0.0014
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6654 | top1_exactK=0.0014
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_mu] best=11.887801 gap=0.000% ipopt=20/20
+  Muestreo: unique=2449 | exactK=2449 | entropy_exactK=7.6692 | top1_exactK=0.0014
+  Muestreo: unique=2424 | exactK=2424 | entropy_exactK=7.6667 | top1_exactK=0.0018
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6605 | top1_exactK=0.0016
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6574 | top1_exactK=0.0014
+  Muestreo: unique=2424 | exactK=2424 | entropy_exactK=7.6531 | top1_exactK=0.0016
+  Muestreo: unique=2423 | exactK=2423 | entropy_exactK=7.6576 | top1_exactK=0.0014
+  Muestreo: unique=2422 | exactK=2422 | entropy_exactK=7.6586 | top1_exactK=0.0016
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6633 | top1_exactK=0.0014
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6647 | top1_exactK=0.0016
+  Muestreo: unique=2463 | exactK=2463 | entropy_exactK=7.6744 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_mu] best=11.887801 gap=0.000% ipopt=20/20
+  Muestreo: unique=2436 | exactK=2436 | entropy_exactK=7.6660 | top1_exactK=0.0016
+  Muestreo: unique=2445 | exactK=2445 | entropy_exactK=7.6626 | top1_exactK=0.0016
+  Muestreo: unique=2433 | exactK=2433 | entropy_exactK=7.6628 | top1_exactK=0.0016
+  Muestreo: unique=2424 | exactK=2424 | entropy_exactK=7.6512 | top1_exactK=0.0016
+  Muestreo: unique=2425 | exactK=2425 | entropy_exactK=7.6610 | top1_exactK=0.0016
+  Muestreo: unique=2449 | exactK=2449 | entropy_exactK=7.6652 | top1_exactK=0.0016
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6714 | top1_exactK=0.0016
+  Muestreo: unique=2410 | exactK=2410 | entropy_exactK=7.6486 | top1_exactK=0.0016
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6704 | top1_exactK=0.0016
+  Muestreo: unique=2427 | exactK=2427 | entropy_exactK=7.6549 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 10. Stop.
+  [uniform_random|ranked_mu] best=11.887801 gap=0.000% ipopt=20/20
+  Muestreo: unique=2440 | exactK=2440 | entropy_exactK=7.6618 | top1_exactK=0.0018
+  Muestreo: unique=2388 | exactK=2388 | entropy_exactK=7.6397 | top1_exactK=0.0016
+  [StructuralTabu] Nueva regla: return_support_ceiling(R=13.0): excluye C(12,5)=792 soportes (26.37% del espacio de búsqueda)
+  Muestreo: unique=2428 | exactK=2428 | entropy_exactK=7.6529 | top1_exactK=0.0016
+  Muestreo: unique=2443 | exactK=2443 | entropy_exactK=7.6651 | top1_exactK=0.0016
+  Muestreo: unique=2424 | exactK=2424 | entropy_exactK=7.6566 | top1_exactK=0.0014
+  Muestreo: unique=2430 | exactK=2430 | entropy_exactK=7.6574 | top1_exactK=0.0016
+  Muestreo: unique=2454 | exactK=2454 | entropy_exactK=7.6708 | top1_exactK=0.0016
+  Muestreo: unique=2428 | exactK=2428 | entropy_exactK=7.6563 | top1_exactK=0.0014
+  Muestreo: unique=2402 | exactK=2402 | entropy_exactK=7.6500 | top1_exactK=0.0014
+  Muestreo: unique=2432 | exactK=2432 | entropy_exactK=7.6625 | top1_exactK=0.0014
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6594 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 11. Stop.
+  [uniform_random|random_exactK] best=11.979675 gap=0.773% ipopt=20/20
+  Muestreo: unique=2413 | exactK=2413 | entropy_exactK=7.6561 | top1_exactK=0.0016
+  Muestreo: unique=2433 | exactK=2433 | entropy_exactK=7.6605 | top1_exactK=0.0014
+  [StructuralTabu] Nueva regla: return_support_ceiling(R=13.0): excluye C(12,5)=792 soportes (26.37% del espacio de búsqueda)
+  Muestreo: unique=2447 | exactK=2447 | entropy_exactK=7.6646 | top1_exactK=0.0016
+  Muestreo: unique=2434 | exactK=2434 | entropy_exactK=7.6591 | top1_exactK=0.0016
+  Muestreo: unique=2425 | exactK=2425 | entropy_exactK=7.6530 | top1_exactK=0.0014
+  Muestreo: unique=2429 | exactK=2429 | entropy_exactK=7.6566 | top1_exactK=0.0014
+  Muestreo: unique=2431 | exactK=2431 | entropy_exactK=7.6573 | top1_exactK=0.0018
+  Muestreo: unique=2416 | exactK=2416 | entropy_exactK=7.6528 | top1_exactK=0.0014
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6685 | top1_exactK=0.0016
+  Muestreo: unique=2432 | exactK=2432 | entropy_exactK=7.6612 | top1_exactK=0.0014
+  Muestreo: unique=2417 | exactK=2417 | entropy_exactK=7.6530 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 11. Stop.
+  [uniform_random|random_exactK] best=12.524150 gap=5.353% ipopt=20/20
+  Muestreo: unique=2459 | exactK=2459 | entropy_exactK=7.6737 | top1_exactK=0.0018
+  Muestreo: unique=2442 | exactK=2442 | entropy_exactK=7.6650 | top1_exactK=0.0014
+  Muestreo: unique=2450 | exactK=2450 | entropy_exactK=7.6762 | top1_exactK=0.0016
+  [StructuralTabu] Nueva regla: return_support_ceiling(R=13.0): excluye C(12,5)=792 soportes (26.37% del espacio de búsqueda)
+  Muestreo: unique=2439 | exactK=2439 | entropy_exactK=7.6688 | top1_exactK=0.0016
+  Muestreo: unique=2420 | exactK=2420 | entropy_exactK=7.6521 | top1_exactK=0.0014
+  Muestreo: unique=2429 | exactK=2429 | entropy_exactK=7.6575 | top1_exactK=0.0014
+  Muestreo: unique=2422 | exactK=2422 | entropy_exactK=7.6517 | top1_exactK=0.0016
+  Muestreo: unique=2443 | exactK=2443 | entropy_exactK=7.6597 | top1_exactK=0.0016
+  Muestreo: unique=2433 | exactK=2433 | entropy_exactK=7.6576 | top1_exactK=0.0014
+  Muestreo: unique=2428 | exactK=2428 | entropy_exactK=7.6591 | top1_exactK=0.0016
+  Muestreo: unique=2420 | exactK=2420 | entropy_exactK=7.6518 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 11. Stop.
+  [uniform_random|random_exactK] best=12.428142 gap=4.545% ipopt=20/20
+  Muestreo: unique=2447 | exactK=2447 | entropy_exactK=7.6692 | top1_exactK=0.0014
+  [StructuralTabu] Nueva regla: return_support_ceiling(R=13.0): excluye C(12,5)=792 soportes (26.37% del espacio de búsqueda)
+  Muestreo: unique=2450 | exactK=2450 | entropy_exactK=7.6671 | top1_exactK=0.0014
+  Muestreo: unique=2443 | exactK=2443 | entropy_exactK=7.6662 | top1_exactK=0.0014
+  Muestreo: unique=2449 | exactK=2449 | entropy_exactK=7.6568 | top1_exactK=0.0018
+  Muestreo: unique=2425 | exactK=2425 | entropy_exactK=7.6551 | top1_exactK=0.0016
+  Muestreo: unique=2453 | exactK=2453 | entropy_exactK=7.6695 | top1_exactK=0.0014
+  Muestreo: unique=2452 | exactK=2452 | entropy_exactK=7.6685 | top1_exactK=0.0014
+  Muestreo: unique=2432 | exactK=2432 | entropy_exactK=7.6595 | top1_exactK=0.0016
+  Muestreo: unique=2426 | exactK=2426 | entropy_exactK=7.6555 | top1_exactK=0.0016
+  Muestreo: unique=2474 | exactK=2474 | entropy_exactK=7.6732 | top1_exactK=0.0016
+  Muestreo: unique=2436 | exactK=2436 | entropy_exactK=7.6644 | top1_exactK=0.0014
+  Budget B_max=20 alcanzado en iter 11. Stop.
+  [uniform_random|random_exactK] best=12.401845 gap=4.324% ipopt=20/20
+  Muestreo: unique=2442 | exactK=2442 | entropy_exactK=7.6641 | top1_exactK=0.0014
+  [StructuralTabu] Nueva regla: return_support_ceiling(R=13.0): excluye C(12,5)=792 soportes (26.37% del espacio de búsqueda)
+  Muestreo: unique=2409 | exactK=2409 | entropy_exactK=7.6477 | top1_exactK=0.0020
+  Muestreo: unique=2433 | exactK=2433 | entropy_exactK=7.6592 | top1_exactK=0.0014
+  Muestreo: unique=2445 | exactK=2445 | entropy_exactK=7.6664 | top1_exactK=0.0014
+  Muestreo: unique=2433 | exactK=2433 | entropy_exactK=7.6627 | top1_exactK=0.0014
+  Muestreo: unique=2415 | exactK=2415 | entropy_exactK=7.6508 | top1_exactK=0.0016
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6724 | top1_exactK=0.0018
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6638 | top1_exactK=0.0014
+  Muestreo: unique=2430 | exactK=2430 | entropy_exactK=7.6550 | top1_exactK=0.0016
+  Muestreo: unique=2418 | exactK=2418 | entropy_exactK=7.6499 | top1_exactK=0.0016
+  Muestreo: unique=2441 | exactK=2441 | entropy_exactK=7.6591 | top1_exactK=0.0018
+  Budget B_max=20 alcanzado en iter 11. Stop.
+  [uniform_random|random_exactK] best=12.306108 gap=3.519% ipopt=20/20
+  Muestreo: unique=2437 | exactK=2437 | entropy_exactK=7.6640 | top1_exactK=0.0014
+  [StructuralTabu] Nueva regla: return_support_ceiling(R=13.0): excluye C(12,5)=792 soportes (26.37% del espacio de búsqueda)
+  Muestreo: unique=2434 | exactK=2434 | entropy_exactK=7.6621 | top1_exactK=0.0014
+  Muestreo: unique=2427 | exactK=2427 | entropy_exactK=7.6671 | top1_exactK=0.0014
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6649 | top1_exactK=0.0016
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6631 | top1_exactK=0.0016
+  Muestreo: unique=2462 | exactK=2462 | entropy_exactK=7.6723 | top1_exactK=0.0016
+  Muestreo: unique=2435 | exactK=2435 | entropy_exactK=7.6581 | top1_exactK=0.0020
+  Muestreo: unique=2419 | exactK=2419 | entropy_exactK=7.6530 | top1_exactK=0.0014
+  Muestreo: unique=2393 | exactK=2393 | entropy_exactK=7.6412 | top1_exactK=0.0020
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6629 | top1_exactK=0.0016
+  Muestreo: unique=2426 | exactK=2426 | entropy_exactK=7.6514 | top1_exactK=0.0014
+  Budget B_max=20 alcanzado en iter 11. Stop.
+  [uniform_random|random_exactK] best=12.306108 gap=3.519% ipopt=20/20
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6675 | top1_exactK=0.0014
+  Muestreo: unique=2422 | exactK=2422 | entropy_exactK=7.6563 | top1_exactK=0.0018
+  [StructuralTabu] Nueva regla: return_support_ceiling(R=13.0): excluye C(12,5)=792 soportes (26.37% del espacio de búsqueda)
+  Muestreo: unique=2405 | exactK=2405 | entropy_exactK=7.6533 | top1_exactK=0.0016
+  Muestreo: unique=2459 | exactK=2459 | entropy_exactK=7.6729 | top1_exactK=0.0014
+  Muestreo: unique=2444 | exactK=2444 | entropy_exactK=7.6665 | top1_exactK=0.0018
+  Muestreo: unique=2417 | exactK=2417 | entropy_exactK=7.6611 | top1_exactK=0.0016
+  Muestreo: unique=2440 | exactK=2440 | entropy_exactK=7.6631 | top1_exactK=0.0014
+  Muestreo: unique=2438 | exactK=2438 | entropy_exactK=7.6587 | top1_exactK=0.0016
+  Muestreo: unique=2465 | exactK=2465 | entropy_exactK=7.6756 | top1_exactK=0.0016
+  Muestreo: unique=2415 | exactK=2415 | entropy_exactK=7.6498 | top1_exactK=0.0016
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6649 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 11. Stop.
+  [uniform_random|random_exactK] best=14.374995 gap=20.922% ipopt=20/20
+  Muestreo: unique=2437 | exactK=2437 | entropy_exactK=7.6631 | top1_exactK=0.0016
+  [StructuralTabu] Nueva regla: return_support_ceiling(R=13.0): excluye C(12,5)=792 soportes (26.37% del espacio de búsqueda)
+  Muestreo: unique=2435 | exactK=2435 | entropy_exactK=7.6617 | top1_exactK=0.0016
+  Muestreo: unique=2416 | exactK=2416 | entropy_exactK=7.6496 | top1_exactK=0.0016
+  Muestreo: unique=2430 | exactK=2430 | entropy_exactK=7.6532 | top1_exactK=0.0016
+  Muestreo: unique=2429 | exactK=2429 | entropy_exactK=7.6614 | top1_exactK=0.0018
+  Muestreo: unique=2445 | exactK=2445 | entropy_exactK=7.6610 | top1_exactK=0.0018
+  Muestreo: unique=2450 | exactK=2450 | entropy_exactK=7.6640 | top1_exactK=0.0018
+  Muestreo: unique=2431 | exactK=2431 | entropy_exactK=7.6614 | top1_exactK=0.0014
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6697 | top1_exactK=0.0014
+  Muestreo: unique=2435 | exactK=2435 | entropy_exactK=7.6628 | top1_exactK=0.0014
+  Muestreo: unique=2415 | exactK=2415 | entropy_exactK=7.6560 | top1_exactK=0.0016
+  Budget B_max=20 alcanzado en iter 11. Stop.
+  [uniform_random|random_exactK] best=12.471082 gap=4.907% ipopt=20/20
+  Muestreo: unique=2449 | exactK=2449 | entropy_exactK=7.6692 | top1_exactK=0.0014
+  Muestreo: unique=2433 | exactK=2433 | entropy_exactK=7.6698 | top1_exactK=0.0018
+  [StructuralTabu] Nueva regla: return_support_ceiling(R=13.0): excluye C(12,5)=792 soportes (26.37% del espacio de búsqueda)
+  Muestreo: unique=2439 | exactK=2439 | entropy_exactK=7.6589 | top1_exactK=0.0016
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6635 | top1_exactK=0.0014
+  Muestreo: unique=2422 | exactK=2422 | entropy_exactK=7.6526 | top1_exactK=0.0016
+  Muestreo: unique=2447 | exactK=2447 | entropy_exactK=7.6651 | top1_exactK=0.0014
+  Muestreo: unique=2446 | exactK=2446 | entropy_exactK=7.6676 | top1_exactK=0.0014
+  Muestreo: unique=2444 | exactK=2444 | entropy_exactK=7.6705 | top1_exactK=0.0014
+  Muestreo: unique=2462 | exactK=2462 | entropy_exactK=7.6680 | top1_exactK=0.0016
+  Muestreo: unique=2456 | exactK=2456 | entropy_exactK=7.6640 | top1_exactK=0.0016
+  Muestreo: unique=2449 | exactK=2449 | entropy_exactK=7.6756 | top1_exactK=0.0014
+  Budget B_max=20 alcanzado en iter 11. Stop.
+  [uniform_random|random_exactK] best=12.772995 gap=7.446% ipopt=20/20
+  Muestreo: unique=2436 | exactK=2436 | entropy_exactK=7.6660 | top1_exactK=0.0016
+  Muestreo: unique=2432 | exactK=2432 | entropy_exactK=7.6577 | top1_exactK=0.0016
+  Muestreo: unique=2444 | exactK=2444 | entropy_exactK=7.6659 | top1_exactK=0.0016
+  [StructuralTabu] Nueva regla: return_support_ceiling(R=13.0): excluye C(12,5)=792 soportes (26.37% del espacio de búsqueda)
+  Muestreo: unique=2435 | exactK=2435 | entropy_exactK=7.6591 | top1_exactK=0.0016
+  Muestreo: unique=2449 | exactK=2449 | entropy_exactK=7.6722 | top1_exactK=0.0014
+  Muestreo: unique=2418 | exactK=2418 | entropy_exactK=7.6551 | top1_exactK=0.0016
+  Muestreo: unique=2452 | exactK=2452 | entropy_exactK=7.6684 | top1_exactK=0.0014
+  Muestreo: unique=2440 | exactK=2440 | entropy_exactK=7.6642 | top1_exactK=0.0016
+  Muestreo: unique=2457 | exactK=2457 | entropy_exactK=7.6677 | top1_exactK=0.0016
+  Muestreo: unique=2426 | exactK=2426 | entropy_exactK=7.6533 | top1_exactK=0.0016
+  Muestreo: unique=2436 | exactK=2436 | entropy_exactK=7.6631 | top1_exactK=0.0014
+  Budget B_max=20 alcanzado en iter 11. Stop.
+  [uniform_random|random_exactK] best=11.940837 gap=0.446% ipopt=20/20
+
+=== EXP-1: Mann-Whitney QAOA vs Uniforme bajo common capped IPOPT budget B_max=20 ===
+  ranked_hybrid: QAOA mean=12.1673 | Unif mean=16.0889 | p=0.0000
+  ranked_mu: QAOA mean=12.1673 | Unif mean=11.8878 | p=0.0000
+  random_exactK: QAOA mean=12.1673 | Unif mean=12.5506 | p=0.0013
+
+[Fase3] Consolidado guardado en fase3_all_results.csv (60 filas)
+
+[Fase3] Completo.

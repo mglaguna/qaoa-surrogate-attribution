@@ -1,0 +1,4 @@
+sampler_type,best_var_mean,best_var_std,best_var_min,best_var_max,best_var_count,gap_pct_mean,gap_pct_std,gap_pct_min,gap_pct_max,gap_pct_count,ipopt_total_mean,ipopt_total_std,ipopt_total_min,ipopt_total_max,ipopt_total_count
+frozen_qaoa,11.922,0.0,11.922,11.922,10,0.288,0.0,0.288,0.288,10,7.0,0.0,7,7,10
+live_qaoa,12.1673,0.7757,11.922,14.375,10,2.3514,6.5251,0.288,20.9222,10,15.6,7.1212,5,21,10
+uniform,12.0985,0.1941,11.8878,12.4018,10,1.7725,1.6332,-0.0,4.3241,10,58.9,0.3162,58,59,10

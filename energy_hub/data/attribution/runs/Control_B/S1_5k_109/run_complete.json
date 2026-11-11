@@ -1,0 +1,18 @@
+{
+  "arm": "S1_5k",
+  "best_tac": 13672539.78666451,
+  "coefficient_hash": "f57f11a2573ec94a0926e058534a5a4021b13272ac2b54576dc4eb153dcee616",
+  "completed_at_utc": "2026-07-20T01:33:49Z",
+  "config_hash": "f27e69d3e7173d592450e4c86b322ae9e7d381c67d509a6dee055c8e1bb4c109",
+  "n_continuous": 100,
+  "n_unique": 847,
+  "protocol_version": "EH_CANONICAL_V1",
+  "restart_seeds": [
+    {
+      "restart": 0,
+      "training_seed": 2105412322
+    }
+  ],
+  "runtime_s": 38.53247308731079,
+  "seed": 109
+}

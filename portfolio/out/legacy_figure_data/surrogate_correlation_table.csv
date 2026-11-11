@@ -1,0 +1,4 @@
+feature,spearman_rho_vs_ipopt_var,p_value,rank_of_global_opt,n_total_supports
+surrogate_energy,-0.2094,2.472690904520031e-23,2139,2211
+hybrid_score,-0.3756,4.924283083304253e-75,945,2211
+mu_score,-0.6908,2.15847390847e-313,5,2211

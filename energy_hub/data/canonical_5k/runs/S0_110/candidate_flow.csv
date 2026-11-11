@@ -1,0 +1,2 @@
+arm,seed,selection_policy,total_shots,unique_exactK_supports,raw_exactK_events,duplicates_skipped,structural_rejects,eligible_supports,attempted_continuous_evaluations,feasible_continuous_evaluations,infeasible_continuous_evaluations,budget_exhausted_flag,candidate_shortage_flag,available_budget,runtime_s
+S0,110,frequency_ranked,5000,637,5000,4363,210,427,100,99,1,False,False,427,37.84931182861328

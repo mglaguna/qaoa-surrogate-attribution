@@ -1,0 +1,20 @@
+{
+  "arm": "S1",
+  "best_tac": 17480702.580272242,
+  "coefficient_hash": "f57f11a2573ec94a0926e058534a5a4021b13272ac2b54576dc4eb153dcee616",
+  "completed_at_utc": "2026-07-20T01:32:32Z",
+  "config_hash": "f27e69d3e7173d592450e4c86b322ae9e7d381c67d509a6dee055c8e1bb4c109",
+  "n_continuous": 100,
+  "n_unique": 678,
+  "protocol_version": "EH_CANONICAL_V1",
+  "provenance_original_arm_name": "S1_5k",
+  "provenance_source": "energy_hub_s1_control_B",
+  "restart_seeds": [
+    {
+      "restart": 0,
+      "training_seed": 2398355445
+    }
+  ],
+  "runtime_s": 37.73202466964722,
+  "seed": 107
+}

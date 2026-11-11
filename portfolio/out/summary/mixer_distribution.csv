@@ -1,0 +1,7 @@
+topology,normalization,n_unique_exactK_mean,n_unique_exactK_std,n_unique_exactK_min,n_unique_exactK_max,n_unique_exactK_count,entropy_ratio_mean,entropy_ratio_std,entropy_ratio_min,entropy_ratio_max,entropy_ratio_count,top1_freq_mean,top1_freq_std,top1_freq_min,top1_freq_max,top1_freq_count
+fully_connected,by_pairs,206.4,136.1586,2,425,10,0.1765,0.1006,0.0002,0.3179,10,0.7942,0.121,0.6226,0.9998,10
+fully_connected,none,6.2,6.8767,1,17,10,0.0126,0.0163,-0.0,0.0336,10,0.9826,0.0225,0.9532,1.0,10
+line,by_pairs,5.7,2.3118,2,9,10,0.0742,0.0398,0.0002,0.1268,10,0.8037,0.1165,0.6362,0.9998,10
+line,none,11.0,0.0,11,11,10,0.212,0.0019,0.2076,0.2136,10,0.5576,0.0057,0.5528,0.5712,10
+ring,by_pairs,15.7,6.2902,3,21,10,0.2002,0.0886,0.0019,0.2895,10,0.4476,0.2518,0.2514,0.998,10
+ring,none,15.5,6.8516,5,21,10,0.1846,0.1287,0.019,0.3344,10,0.5644,0.3358,0.1524,0.9786,10

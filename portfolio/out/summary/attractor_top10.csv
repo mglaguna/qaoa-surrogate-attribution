@@ -1,0 +1,2 @@
+bits,assets,count,freq_qaoa,ipopt_variance,rank_by_variance
+111100000000001,"['tech_growth', 'tech_value', 'tech_semis', 'pharma', 'retail']",5000,1.0,15.064779051921947,1

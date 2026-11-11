@@ -1,0 +1,17 @@
+{
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "description": "Engineering fingerprints of surrogate-induced structural search bias, recomputed from EH_CANONICAL_V1 using the historical forest-plus-facets grammar: (A) median ex ante feature shifts relative to Uniform in Uniform-IQR units; (B) canonical B<=100 evaluated supports in nominal adequacy versus Simpson family-diversity space, colored by downstream TAC.",
+  "figure": "figure7_engineering_fingerprints",
+  "outputs": [
+    "figures\\main\\figure7_engineering_fingerprints.png",
+    "figures\\main\\figure7_engineering_fingerprints.pdf",
+    "figures\\main\\figure7_engineering_fingerprints.svg",
+    "figures\\main\\figure7_engineering_fingerprints_preview_gray.png"
+  ],
+  "protocol_version": "EH_CANONICAL_V1",
+  "source_files": [
+    "outputs/energy_hub_canonical_v1/unique_supports.csv",
+    "outputs/energy_hub_canonical_v1/continuous_evaluations.csv",
+    "code/hybrid_pipeline (fresh per-support feature computation)"
+  ]
+}

@@ -1,0 +1,7 @@
+topology,normalization,gap_pct_mean,gap_pct_std,gap_pct_min,gap_pct_max,gap_pct_count,ipopt_used_mean,ipopt_used_std,ipopt_used_min,ipopt_used_max,ipopt_used_count,n_finite
+fully_connected,by_pairs,0.3699,0.1457,-0.0,0.4461,10,54.4,15.9597,9,60,10,10
+fully_connected,none,110.2996,0.0,110.2996,110.2996,4,0.6,0.8433,0,2,10,4
+line,by_pairs,0.288,0.0,0.288,0.288,10,6.6,2.5906,2,11,10,10
+line,none,0.288,0.0,0.288,0.288,10,11.0,0.0,11,11,10,10
+ring,by_pairs,0.288,0.0,0.288,0.288,10,17.1,6.2441,3,21,10,10
+ring,none,2.3514,6.5251,0.288,20.9222,10,16.0,6.5659,6,21,10,10

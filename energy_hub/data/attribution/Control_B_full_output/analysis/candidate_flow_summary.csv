@@ -1,0 +1,2 @@
+arm,n_seeds,median_total_shots,median_unique_exactK_supports,median_raw_exactK_events,median_duplicates_skipped,median_structural_rejects,median_eligible_supports,median_attempted_continuous_evaluations,median_feasible_continuous_evaluations,median_infeasible_continuous_evaluations,n_seeds_candidate_shortage
+S1_5k,10,5000.0,1207.5,5000.0,3792.5,493.0,665.5,100.0,97.0,3.0,0

@@ -1,0 +1,17 @@
+{
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "description": "Canonical budget-series seed-level robustness. Panels A-C show Uniform minus each surrogate at B=30, 60, and 100; panel D shows canonical B=100 pairwise median effects with IQR.",
+  "figure": "FigureS1_seed_robustness_B100",
+  "outputs": [
+    "figures\\supplement\\FigureS1_seed_robustness_B100\\FigureS1_seed_robustness_B100.png",
+    "figures\\supplement\\FigureS1_seed_robustness_B100\\FigureS1_seed_robustness_B100.pdf",
+    "figures\\supplement\\FigureS1_seed_robustness_B100\\FigureS1_seed_robustness_B100.svg",
+    "figures\\supplement\\FigureS1_seed_robustness_B100\\preview_grayscale_check.png",
+    "figures\\supplement\\png_inspection_300ppi\\FigureS1_seed_robustness_B100.png"
+  ],
+  "protocol_version": "EH_CANONICAL_V1",
+  "source_files": [
+    "data/canonical_5k/continuous_evaluations.csv",
+    "figures/supplement/source_data/canonical_best_support_by_budget_arm_seed.csv"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "description": "Canonical visual update of the energy-probability-value alignment diagnostic. Panel A plots surrogate energy versus empirical sample probability for unique sampled supports; panel B plots surrogate energy versus feasible TAC among B<=100 continuous evaluations; panel C reports per-arm Spearman energy-TAC correlations.",
+  "figure": "FigureS3_energy_probability_value_alignment_B100",
+  "outputs": [
+    "figures\\supplement\\FigureS3_energy_probability_value_alignment_B100\\FigureS3_energy_probability_value_alignment_B100.png",
+    "figures\\supplement\\FigureS3_energy_probability_value_alignment_B100\\FigureS3_energy_probability_value_alignment_B100.pdf",
+    "figures\\supplement\\FigureS3_energy_probability_value_alignment_B100\\FigureS3_energy_probability_value_alignment_B100.svg",
+    "figures\\supplement\\FigureS3_energy_probability_value_alignment_B100\\preview_grayscale_check.png",
+    "figures\\supplement\\png_inspection_300ppi\\FigureS3_energy_probability_value_alignment_B100.png"
+  ],
+  "protocol_version": "EH_CANONICAL_V1",
+  "source_files": [
+    "data/canonical_5k/unique_supports.csv",
+    "data/canonical_5k/continuous_evaluations.csv"
+  ]
+}

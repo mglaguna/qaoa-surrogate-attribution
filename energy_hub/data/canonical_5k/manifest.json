@@ -1,0 +1,35 @@
+{
+  "campaign_name": "energy_hub_canonical_5k_v1",
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "exhaustive_reference_hash": "b97482a8962dee728d2f7ce5efc804979fe5a0b13d08918119e2434637f052fe",
+  "expected_runs": 40,
+  "final_status": "PASS",
+  "generated_at_utc": "2026-07-20T12:57:23Z",
+  "generated_by": "Standalone post-hoc aggregator over data/canonical_5k/runs/ (40 frozen run dirs), not by run_campaign(). No derive_seed call anywhere in its construction.",
+  "instance_hash": "206b9cdc32ca19056258f247fa107712ebb9e1303585cd7e4de312ea107b1a65",
+  "invariants": {
+    "all_cardinality_K": true,
+    "all_passed": true,
+    "every_evaluation_was_sampled": true,
+    "expected_total_runs": true,
+    "max_100_attempted_per_run": true,
+    "no_duplicate_arm_seed_support": true,
+    "same_support_same_TAC": true
+  },
+  "output_file_hashes": {
+    "arm_summary.csv": "d4e5fe456ff76f5bae240ffe3e0ddf704d66d65dfa2b4f0bb4b769b87c8d2147",
+    "candidate_flow.csv": "637ade8f08fc2fef78c642c25befe14302796428c965b50fe22e6865f14c69f9",
+    "continuous_evaluations.csv": "c82d9d37bf5395bea67c8f7b41bae2bb7173979960a97f6a7afa98fc3b5ac818",
+    "seed_arm_summary.csv": "dda91c8d6a70337d6f19632251866b8daf90806f754d05d8fbf5293ae0befb81",
+    "unique_supports.csv": "b24ad6f7bac4e3a7a82e935e546c7c6acc52c8f8e5885e0d230db782583f92ab"
+  },
+  "package_versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.1"
+  },
+  "platform": "Windows-10-10.0.19045-SP0",
+  "protocol_version": "EH_CANONICAL_V1",
+  "provenance_note": "S0, S2, Uniform copied unchanged from energy_hub_canonical_v1/ (original campaign). S1 in this 5k campaign is a rename of arm 'S1_5k' copied from energy_hub_s1_control_B/ (an independent-draw control run, NOT the original 15k-shot S1). See README.md.",
+  "python_version": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:49:16) [MSC v.1929 64 bit (AMD64)]",
+  "total_run_dirs": 40
+}

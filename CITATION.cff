@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated article and this repository."
+title: "Code and data for: Surrogate Attribution in Hybrid Quantum–Classical QAOA for Discrete–Continuous Energy Hub Design"
+type: software
+version: "1.1.0"
+date-released: "2026-11-11"
+license: MIT
+abstract: "Code, data and figures behind the manuscript “Surrogate Attribution in Hybrid Quantum–Classical QAOA for Discrete–Continuous Energy Hub Design”. Two fully enumerable discrete–continuous benchmarks (Energy Hub design, N = 18 technologies, K = 6; cardinality-constrained mean–variance portfolio, N = 15 assets, K = 5), their exhaustive references, the exact-cardinality QAOA samplers, the controls and the analysis and figure scripts. Code: MIT License; data, results and figures: CC BY 4.0 (LICENSE-DATA.md)."
+authors:
+  - family-names: "Moraila-Anchondo"
+    given-names: "Milán A."
+    affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+  - family-names: "López-Flores"
+    given-names: "Francisco Javier"
+    affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+  - family-names: "Gonzalez Llanes"
+    given-names: "Marcos Daniel"
+    affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+  - family-names: "Hernández Calderón"
+    given-names: "Oscar Martín"
+    affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+  - family-names: "Rubio-Castro"
+    given-names: "Eusiel"
+    affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+  - family-names: "Laguna-Martinez"
+    given-names: "Maria G."
+    email: "mglaguna@uas.edu.mx"
+    affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+preferred-citation:
+  type: article
+  title: "Surrogate Attribution in Hybrid Quantum–Classical QAOA for Discrete–Continuous Energy Hub Design"
+  journal: "Industrial & Engineering Chemistry Research"
+  status: submitted
+  authors:
+    - family-names: "Moraila-Anchondo"
+      given-names: "Milán A."
+      affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+    - family-names: "López-Flores"
+      given-names: "Francisco Javier"
+      affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+    - family-names: "Gonzalez Llanes"
+      given-names: "Marcos Daniel"
+      affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+    - family-names: "Hernández Calderón"
+      given-names: "Oscar Martín"
+      affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+    - family-names: "Rubio-Castro"
+      given-names: "Eusiel"
+      affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+    - family-names: "Laguna-Martinez"
+      given-names: "Maria G."
+      email: "mglaguna@uas.edu.mx"
+      affiliation: "Graduate Program in Chemical Engineering, Chemical and Biological Sciences Department, Universidad Autónoma de Sinaloa, Culiacán, Sinaloa 80000, Mexico"
+keywords:
+  - QAOA
+  - hybrid quantum-classical optimization
+  - surrogate Hamiltonian
+  - energy hub design
+  - portfolio optimization
+  - reproducibility

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2020" height="1000" viewBox="0 0 2020 1000" font-family="Helvetica,Arial,sans-serif">
+<rect x="0" y="0" width="2020" height="1000" fill="#FFFFFF"/>
+<defs>
+<marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#000000"/></marker>
+<marker id="arrow_D79B00" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#D79B00"/></marker>
+<marker id="arrow_666666" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#666666"/></marker>
+<marker id="arrow_9673A6" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#9673A6"/></marker>
+<marker id="arrow_82B366" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#82B366"/></marker>
+<marker id="arrow_AAAAAA" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#AAAAAA"/></marker>
+<marker id="arrow_6C8EBF" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6C8EBF"/></marker>
+</defs>
+<rect x="380" y="75" width="760" height="770" fill="none" stroke="#000000" stroke-width="1.5"/>
+<text x="390" y="95" font-size="14" font-weight="bold" fill="#111111">Candidate technology catalog -- N = 18  (6 cogeneration + 4 renewable + 4 thermal + 4 cooling)</text>
+<path d="M 300.0,185.0 C 355.0,185.0 355.0,207.5 410.0,207.5" fill="none" stroke="#666666" stroke-width="2" marker-end="url(#arrow_666666)"/>
+<path d="M 300.0,185.0 C 355.0,185.0 355.0,545.0 410.0,545.0" fill="none" stroke="#666666" stroke-width="2" marker-end="url(#arrow_666666)"/>
+<path d="M 300.0,185.0 C 355.0,185.0 355.0,705.0 410.0,705.0" fill="none" stroke="#666666" stroke-width="2" marker-end="url(#arrow_666666)"/>
+<path d="M 300.0,355.0 C 355.0,355.0 355.0,385.0 410.0,385.0" fill="none" stroke="#666666" stroke-width="2" marker-end="url(#arrow_666666)"/>
+<path d="M 300.0,525.0 C 760.0,525.0 760.0,235.0 1220.0,235.0" fill="none" stroke="#6C8EBF" stroke-width="3" marker-end="url(#arrow_6C8EBF)"/>
+<path d="M 1110.0,207.5 C 1165.0,207.5 1165.0,235.0 1220.0,235.0" fill="none" stroke="#6C8EBF" stroke-width="3" marker-end="url(#arrow_6C8EBF)"/>
+<path d="M 1110.0,207.5 C 1165.0,207.5 1165.0,485.0 1220.0,485.0" fill="none" stroke="#D79B00" stroke-width="3" marker-end="url(#arrow_D79B00)"/>
+<path d="M 1110.0,207.5 C 1165.0,207.5 1165.0,695.0 1220.0,695.0" fill="none" stroke="#AAAAAA" stroke-width="1" stroke-dasharray="6,5" marker-end="url(#arrow_AAAAAA)"/>
+<path d="M 1110.0,385.0 C 1165.0,385.0 1165.0,235.0 1220.0,235.0" fill="none" stroke="#6C8EBF" stroke-width="3" marker-end="url(#arrow_6C8EBF)"/>
+<path d="M 1110.0,385.0 C 1165.0,385.0 1165.0,485.0 1220.0,485.0" fill="none" stroke="#AAAAAA" stroke-width="1" stroke-dasharray="6,5" marker-end="url(#arrow_AAAAAA)"/>
+<path d="M 1110.0,385.0 C 1165.0,385.0 1165.0,695.0 1220.0,695.0" fill="none" stroke="#AAAAAA" stroke-width="1" stroke-dasharray="6,5" marker-end="url(#arrow_AAAAAA)"/>
+<path d="M 1110.0,545.0 C 1165.0,545.0 1165.0,235.0 1220.0,235.0" fill="none" stroke="#AAAAAA" stroke-width="1" stroke-dasharray="6,5" marker-end="url(#arrow_AAAAAA)"/>
+<path d="M 1110.0,545.0 C 1165.0,545.0 1165.0,485.0 1220.0,485.0" fill="none" stroke="#D79B00" stroke-width="3" marker-end="url(#arrow_D79B00)"/>
+<path d="M 1110.0,545.0 C 1165.0,545.0 1165.0,695.0 1220.0,695.0" fill="none" stroke="#AAAAAA" stroke-width="1" stroke-dasharray="6,5" marker-end="url(#arrow_AAAAAA)"/>
+<path d="M 1110.0,705.0 C 1165.0,705.0 1165.0,235.0 1220.0,235.0" fill="none" stroke="#AAAAAA" stroke-width="1" stroke-dasharray="6,5" marker-end="url(#arrow_AAAAAA)"/>
+<path d="M 1110.0,705.0 C 1165.0,705.0 1165.0,485.0 1220.0,485.0" fill="none" stroke="#AAAAAA" stroke-width="1" stroke-dasharray="6,5" marker-end="url(#arrow_AAAAAA)"/>
+<path d="M 1110.0,705.0 C 1165.0,705.0 1165.0,695.0 1220.0,695.0" fill="none" stroke="#82B366" stroke-width="3" marker-end="url(#arrow_82B366)"/>
+<path d="M 1360.0,235.0 C 1510.0,235.0 1510.0,235.0 1660.0,235.0" fill="none" stroke="#6C8EBF" stroke-width="3" marker-end="url(#arrow_6C8EBF)"/>
+<path d="M 1360.0,485.0 C 1510.0,485.0 1510.0,485.0 1660.0,485.0" fill="none" stroke="#D79B00" stroke-width="3" marker-end="url(#arrow_D79B00)"/>
+<path d="M 1360.0,695.0 C 1510.0,695.0 1510.0,695.0 1660.0,695.0" fill="none" stroke="#82B366" stroke-width="3" marker-end="url(#arrow_82B366)"/>
+<rect x="380" y="15" width="760.0" height="44" rx="6" fill="#E1D5E7" stroke="#9673A6" stroke-width="1.6"/>
+<text x="760.0" y="41.7" font-size="14" font-weight="bold" text-anchor="middle" fill="#111111">Exact-cardinality support:   Sum_i y_i = 6   (activates 6 of 18 candidate technologies)</text>
+<rect x="40" y="150" width="260.0" height="70" rx="6" fill="#FFF2CC" stroke="#D6B656" stroke-width="1.6"/>
+<text x="170.0" y="180.8" font-size="13" font-weight="normal" text-anchor="middle" fill="#111111">Dispatchable primary</text><text x="170.0" y="197.8" font-size="13" font-weight="normal" text-anchor="middle" fill="#111111">energy input</text>
+<rect x="40" y="320" width="260.0" height="70" rx="6" fill="#FFF2CC" stroke="#D6B656" stroke-width="1.6"/>
+<text x="170.0" y="350.8" font-size="13" font-weight="normal" text-anchor="middle" fill="#111111">Renewable resource availability</text><text x="170.0" y="367.8" font-size="13" font-weight="normal" text-anchor="middle" fill="#111111">(time-varying)</text>
+<rect x="40" y="490" width="260.0" height="70" rx="6" fill="#FFF2CC" stroke="#D6B656" stroke-width="1.6"/>
+<text x="170.0" y="529.3" font-size="13" font-weight="normal" text-anchor="middle" fill="#111111">Grid electricity</text>
+<rect x="410" y="120" width="700.0" height="175" rx="6" fill="#F5F5F5" stroke="#666666" stroke-width="1.6"/>
+<text x="418.0" y="139.0" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Cogeneration family (6 candidates)</text>
+<rect x="430.0" y="175" width="96.7" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="478.3" y="211.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t01</text><text x="478.3" y="225.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.46  Q=0.42  C=0.12</text>
+<rect x="538.6666666666666" y="175" width="96.7" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="587.0" y="211.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t02</text><text x="587.0" y="225.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.42  Q=0.48  C=0.08</text>
+<rect x="647.3333333333334" y="175" width="96.7" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="695.7" y="211.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t03</text><text x="695.7" y="225.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.38  Q=0.55  C=0.06</text>
+<rect x="756.0" y="175" width="96.7" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="804.3" y="211.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t04</text><text x="804.3" y="225.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.50  Q=0.30  C=0.10</text>
+<rect x="864.6666666666667" y="175" width="96.7" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="913.0" y="211.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t05</text><text x="913.0" y="225.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.34  Q=0.62  C=0.05</text>
+<rect x="973.3333333333334" y="175" width="96.7" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="1021.7" y="211.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t06</text><text x="1021.7" y="225.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.40  Q=0.36  C=0.15</text>
+<rect x="410" y="315" width="700.0" height="140" rx="6" fill="#F5F5F5" stroke="#666666" stroke-width="1.6"/>
+<text x="418.0" y="334.0" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Renewable family (4 candidates)</text>
+<rect x="430.0" y="370" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="505.0" y="406.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t07</text><text x="505.0" y="420.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.95  Q=0.05  C=0.02</text>
+<rect x="592.0" y="370" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="667.0" y="406.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t08</text><text x="667.0" y="420.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.90  Q=0.08  C=0.03</text>
+<rect x="754.0" y="370" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="829.0" y="406.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t09</text><text x="829.0" y="420.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.88  Q=0.12  C=0.04</text>
+<rect x="916.0" y="370" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="991.0" y="406.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t10</text><text x="991.0" y="420.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.82  Q=0.04  C=0.02</text>
+<rect x="410" y="475" width="700.0" height="140" rx="6" fill="#F5F5F5" stroke="#666666" stroke-width="1.6"/>
+<text x="418.0" y="494.0" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Thermal family (4 candidates)</text>
+<rect x="430.0" y="530" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="505.0" y="566.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t11</text><text x="505.0" y="580.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.05  Q=0.92  C=0.10</text>
+<rect x="592.0" y="530" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="667.0" y="566.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t12</text><text x="667.0" y="580.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.04  Q=0.88  C=0.06</text>
+<rect x="754.0" y="530" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="829.0" y="566.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t13</text><text x="829.0" y="580.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.03  Q=0.84  C=0.08</text>
+<rect x="916.0" y="530" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="991.0" y="566.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t14</text><text x="991.0" y="580.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.02  Q=0.78  C=0.04</text>
+<rect x="410" y="635" width="700.0" height="140" rx="6" fill="#F5F5F5" stroke="#666666" stroke-width="1.6"/>
+<text x="418.0" y="654.0" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Cooling family (4 candidates)</text>
+<rect x="430.0" y="690" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="505.0" y="726.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t15</text><text x="505.0" y="740.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.10  Q=0.08  C=0.95</text>
+<rect x="592.0" y="690" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="667.0" y="726.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t16</text><text x="667.0" y="740.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.08  Q=0.10  C=0.88</text>
+<rect x="754.0" y="690" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="829.0" y="726.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t17</text><text x="829.0" y="740.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.06  Q=0.06  C=0.82</text>
+<rect x="916.0" y="690" width="150.0" height="80" rx="4" fill="#FFFFFF" stroke="#666666" stroke-width="1.2"/>
+<text x="991.0" y="726.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">t18</text><text x="991.0" y="740.3" font-size="10" font-weight="normal" text-anchor="middle" fill="#111111">E=0.04  Q=0.04  C=0.76</text>
+<rect x="380" y="862" width="760.0" height="100" rx="6" fill="#FFFFFF" stroke="#999999" stroke-width="1.6"/>
+<text x="388.0" y="880.0" font-size="12" font-weight="normal" text-anchor="start" fill="#111111">For each candidate technology i:</text><text x="388.0" y="897.0" font-size="12" font-weight="normal" text-anchor="start" fill="#111111">y_i in {0,1}  --  selected in support        s_i &gt;= 0  --  installed capacity        P_i,t &gt;= 0  --  period dispatch</text><text x="388.0" y="914.0" font-size="12" font-weight="normal" text-anchor="start" fill="#111111">s_i &lt;= S_i^max y_i          P_i,t &lt;= rho_i,t s_i</text>
+<rect x="1220" y="120" width="140.0" height="230" rx="6" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.6"/>
+<text x="1290.0" y="239.7" font-size="14" font-weight="bold" text-anchor="middle" fill="#111111">Electricity bus  E</text>
+<rect x="1220" y="390" width="140.0" height="190" rx="6" fill="#FFE6CC" stroke="#D79B00" stroke-width="1.6"/>
+<text x="1290.0" y="489.7" font-size="14" font-weight="bold" text-anchor="middle" fill="#111111">Heat bus  Q</text>
+<rect x="1220" y="620" width="140.0" height="150" rx="6" fill="#D5E8D4" stroke="#82B366" stroke-width="1.6"/>
+<text x="1290.0" y="699.7" font-size="14" font-weight="bold" text-anchor="middle" fill="#111111">Cooling bus  C</text>
+<rect x="1660" y="190" width="300.0" height="90" rx="6" fill="#F8CECC" stroke="#B85450" stroke-width="1.6"/>
+<text x="1810.0" y="230.8" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">Electricity demand</text><text x="1810.0" y="247.8" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">D_t^E</text>
+<rect x="1660" y="440" width="300.0" height="90" rx="6" fill="#F8CECC" stroke="#B85450" stroke-width="1.6"/>
+<text x="1810.0" y="480.8" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">Heat demand</text><text x="1810.0" y="497.8" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">D_t^Q</text>
+<rect x="1660" y="650" width="300.0" height="90" rx="6" fill="#F8CECC" stroke="#B85450" stroke-width="1.6"/>
+<text x="1810.0" y="690.8" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">Cooling demand</text><text x="1810.0" y="707.8" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">D_t^C</text>
+<rect x="1120.0" y="361.0" width="120.0" height="17" fill="#FFFFFF" opacity="0.92" stroke="#DDDDDD" stroke-width="0.5"/><text x="1180.0" y="374.0" font-size="12" text-anchor="middle" fill="#6C8EBF">G_t &lt;= 0.4 D_t^E</text>
+<rect x="1391.2" y="216.0" width="237.6" height="17" fill="#FFFFFF" opacity="0.92" stroke="#DDDDDD" stroke-width="0.5"/><text x="1510.0" y="229.0" font-size="12" text-anchor="middle" fill="#6C8EBF">Sum_i eta_i^E P_i,t + G_t = D_t^E</text>
+<rect x="1409.2" y="466.0" width="201.6" height="17" fill="#FFFFFF" opacity="0.92" stroke="#DDDDDD" stroke-width="0.5"/><text x="1510.0" y="479.0" font-size="12" text-anchor="middle" fill="#D79B00">Sum_i eta_i^Q P_i,t &gt;= D_t^Q</text>
+<rect x="1409.2" y="676.0" width="201.6" height="17" fill="#FFFFFF" opacity="0.92" stroke="#DDDDDD" stroke-width="0.5"/><text x="1510.0" y="689.0" font-size="12" text-anchor="middle" fill="#82B366">Sum_i eta_i^C P_i,t &gt;= D_t^C</text>
+</svg>

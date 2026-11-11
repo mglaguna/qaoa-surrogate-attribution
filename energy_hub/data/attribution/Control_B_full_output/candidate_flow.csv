@@ -1,0 +1,11 @@
+arm,seed,selection_policy,total_shots,unique_exactK_supports,raw_exactK_events,duplicates_skipped,structural_rejects,eligible_supports,attempted_continuous_evaluations,feasible_continuous_evaluations,infeasible_continuous_evaluations,budget_exhausted_flag,candidate_shortage_flag,available_budget,runtime_s
+S1_5k,101,frequency_ranked,5000,1568,5000,3432,619,949,100,100,0,False,False,949,39.51602506637573
+S1_5k,102,frequency_ranked,5000,643,5000,4357,149,494,100,97,3,False,False,494,38.259172677993774
+S1_5k,103,frequency_ranked,5000,1921,5000,3079,944,977,100,88,12,False,False,977,39.23777890205383
+S1_5k,104,frequency_ranked,5000,2316,5000,2684,1042,1274,100,98,2,False,False,1274,39.68530893325806
+S1_5k,105,frequency_ranked,5000,669,5000,4331,176,493,100,99,1,False,False,493,37.746524810791016
+S1_5k,106,frequency_ranked,5000,1900,5000,3100,1072,828,100,92,8,False,False,828,38.99481463432312
+S1_5k,107,frequency_ranked,5000,678,5000,4322,327,351,100,91,9,False,False,351,37.73202466964722
+S1_5k,108,frequency_ranked,5000,712,5000,4288,209,503,100,100,0,False,False,503,37.95478749275208
+S1_5k,109,frequency_ranked,5000,847,5000,4153,367,480,100,97,3,False,False,480,38.53247308731079
+S1_5k,110,frequency_ranked,5000,1921,5000,3079,885,1036,100,95,5,False,False,1036,39.2002546787262

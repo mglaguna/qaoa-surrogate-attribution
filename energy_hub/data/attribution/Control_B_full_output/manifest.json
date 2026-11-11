@@ -1,0 +1,48 @@
+{
+  "campaign_name": "energy_hub_canonical_v1",
+  "command_line": "run_control_b.py 101 102 103 104 105 106 107 108 109 110",
+  "completed_runs_this_invocation": 10,
+  "config_hash": "f27e69d3e7173d592450e4c86b322ae9e7d381c67d509a6dee055c8e1bb4c109",
+  "ended_at_utc": "2026-07-20T01:34:29Z",
+  "exhaustive_reference_hash": "b97482a8962dee728d2f7ce5efc804979fe5a0b13d08918119e2434637f052fe",
+  "expected_runs": 10,
+  "final_status": "PASS",
+  "git": {
+    "commit": "07bf70d32c629ea867ae128415f1fbecbeaa6fae",
+    "diff_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "dirty": true
+  },
+  "instance_hash": "206b9cdc32ca19056258f247fa107712ebb9e1303585cd7e4de312ea107b1a65",
+  "invariants": {
+    "all_cardinality_K": true,
+    "all_passed": true,
+    "every_evaluation_was_sampled": true,
+    "expected_total_runs": true,
+    "max_100_attempted_per_run": true,
+    "no_duplicate_arm_seed_support": true,
+    "same_support_same_TAC": true
+  },
+  "output_file_hashes": {
+    "arm_summary.csv": "f69ff484935d9f2e8a1605251d361af788e79a5f05b05166e89a4a40d3a0fe6c",
+    "candidate_flow.csv": "2e358ca4cc1afc664657e5da3802eefb5cebb683e196239005229ab7c52cea89",
+    "continuous_evaluations.csv": "b25e3f96a27400c3ab9d57f7571ba29ca8912e846d6489c10f66c49ecc642995",
+    "run_registry.csv": "d2d4c01f678d32dfd0962f2dd20417f0596c5ccb35db6e9543a02dff8f181788",
+    "sampling_occurrences.csv": "4d91d1591707e3867aaca16fddd6d76982180d724d0b33609cd975f4b6c34f5e",
+    "seed_arm_summary.csv": "fd21de12a05869963ece33bdb6475c5d11550ade402bbb76141aa927964b082d",
+    "unique_supports.csv": "19194f57a029dad705a848979362ffe931afca96ce9614a1347e0817bb654e60"
+  },
+  "package_versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.1",
+    "pennylane": "0.38.0",
+    "pyomo": "6.9.3",
+    "scipy": "1.13.1"
+  },
+  "platform": "Windows-10-10.0.19045-SP0",
+  "protocol_version": "EH_CANONICAL_V1",
+  "python_version": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:49:16) [MSC v.1929 64 bit (AMD64)]",
+  "reused_runs_this_invocation": 0,
+  "started_at_utc": "2026-07-20T01:27:49Z",
+  "total_run_dirs": 10,
+  "working_directory": "<redacted-local-path>"
+}

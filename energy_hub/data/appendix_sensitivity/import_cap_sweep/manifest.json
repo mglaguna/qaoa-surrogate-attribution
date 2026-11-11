@@ -1,0 +1,25 @@
+{
+  "baseline": 0.4,
+  "cap_values": [
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "ended_at_utc": "2026-08-10T20:32:46Z",
+  "note": "Supplementary appendix study. K=6, N=18, T=6 held fixed. S0/S1/S2 surrogate arms are not re-run at other import-cap values; only the exhaustive classical reference (TAC*) and the Uniform-random control at B=100 are recomputed per value. The 0.4 baseline reuses the frozen EH_CANONICAL_V1 exhaustive reference and canonical_5k Uniform-B100 result by read-only lookup.",
+  "protocol_version": "EH_IMPORT_CAP_SWEEP_APPENDIX_V1",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "started_at_utc": "2026-08-10T19:53:39Z"
+}

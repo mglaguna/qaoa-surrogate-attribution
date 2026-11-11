@@ -1,0 +1,7 @@
+sampler_type,selection_policy,best_var_mean,best_var_std,best_var_min,best_var_max,best_var_count,gap_pct_mean,gap_pct_std,gap_pct_min,gap_pct_max,gap_pct_count,ipopt_used_mean,ipopt_used_std,ipopt_used_min,ipopt_used_max,ipopt_used_count
+QAOA_surrogate,random_exactK,12.1673,0.7757,11.922,14.375,10,2.3514,6.5251,0.288,20.9222,10,15.0,6.6165,5,20,10
+QAOA_surrogate,ranked_hybrid,12.1673,0.7757,11.922,14.375,10,2.3514,6.5251,0.288,20.9222,10,15.1,6.4885,5,20,10
+QAOA_surrogate,ranked_mu,12.1673,0.7757,11.922,14.375,10,2.3514,6.5251,0.288,20.9222,10,15.1,6.4885,5,20,10
+uniform_random,random_exactK,12.5506,0.6863,11.9408,14.375,10,5.5754,5.7733,0.4461,20.9222,10,20.0,0.0,20,20,10
+uniform_random,ranked_hybrid,16.0889,0.0,16.0889,16.0889,10,35.3395,0.0,35.3395,35.3395,10,20.0,0.0,20,20,10
+uniform_random,ranked_mu,11.8878,0.0,11.8878,11.8878,10,0.0,0.0,0.0,0.0,10,20.0,0.0,20,20,10

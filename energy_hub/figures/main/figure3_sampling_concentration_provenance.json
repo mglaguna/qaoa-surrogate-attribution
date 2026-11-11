@@ -1,0 +1,16 @@
+{
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "description": "Sampling concentration and support coverage by arm across 10 seeds: (A) unique exact-K supports, (B) top-10 support probability mass, (C) entropy ratio vs. uniform.",
+  "figure": "figure3_sampling_concentration",
+  "outputs": [
+    "figures\\main\\figure3_sampling_concentration.png",
+    "figures\\main\\figure3_sampling_concentration.pdf",
+    "figures\\main\\figure3_sampling_concentration.svg",
+    "figures\\main\\figure3_sampling_concentration_preview_gray.png"
+  ],
+  "protocol_version": "EH_CANONICAL_V1",
+  "source_files": [
+    "outputs/energy_hub_canonical_v1/unique_supports.csv",
+    "outputs/energy_hub_canonical_v1/seed_arm_summary.csv"
+  ]
+}

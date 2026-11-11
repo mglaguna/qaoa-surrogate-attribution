@@ -1,0 +1,16 @@
+{
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "description": "Per-strategy median (solid) and best-seed (dotted) TAC at B = 100 in the context of the complete feasible exact-K TAC distribution (5,801 supports): (A) full distribution, (B) lower-tail zoom with percentile annotations.",
+  "figure": "figure6_landscape_context",
+  "outputs": [
+    "figures\\main\\figure6_landscape_context.png",
+    "figures\\main\\figure6_landscape_context.pdf",
+    "figures\\main\\figure6_landscape_context.svg",
+    "figures\\main\\figure6_landscape_context_preview_gray.png"
+  ],
+  "protocol_version": "EH_CANONICAL_V1",
+  "source_files": [
+    "inputs/energy_hub_exhaustive_classical_rows.csv",
+    "outputs/energy_hub_canonical_v1/seed_arm_summary.csv"
+  ]
+}

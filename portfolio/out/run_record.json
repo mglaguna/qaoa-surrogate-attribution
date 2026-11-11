@@ -1,0 +1,107 @@
+{
+  "environment": {
+    "python": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:49:16) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "packages": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "pandas": "2.3.1",
+      "pennylane": "0.38.0",
+      "pennylane_lightning": "0.38.0",
+      "autograd": "1.8.0",
+      "pyomo": "6.9.3",
+      "matplotlib": "3.9.1"
+    },
+    "ipopt": "Ipopt 3.14.19 (Windows AMD64), ASL(20231111)",
+    "thread_env": {
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "input_sha256": {
+    "Fase2.py": "df0b527df6f505a398133dbb561f9acf009a00614a28b9f248546a110204692e",
+    "Fase3_separacion_efectos.py": "2a9d98c96cc50066578f8bf950d8da152c896574df0c7aeafe7bb2e71f5d9e51",
+    "Quantico-cardinalidad.py": "13cbd712a1379a6919ab3a01fa71a58058f27973bb243f9540031bd060eb5162",
+    "baseline_enumeration.csv": "fdc64e17b182f8347252edaa413dfab8331df5e5adac621f8483e3ee13fa2cc7",
+    "recompute_mixer_ext.py": "b6e57c3f93c5213d7647fca9cc6ec8b7e67b86220b1431ff5e31c3e4d337ab6d",
+    "recompute_s11_depth.py": "701966c5215a5c15d7ca8abcffd47ddcf9f5b7c2475d68fd5c5aad09ad0cbe01",
+    "run_canonical.py": "e3f8d8271210393e17a1dbbe53f002d46bff8f485b2339549fb4a4c823014043"
+  },
+  "jobs": {
+    "fase2_attractor_matrix_convergence": [
+      "Fase2.py"
+    ],
+    "hamiltonian_ablation": [
+      "Fase3_separacion_efectos.py",
+      "--exp",
+      "1",
+      "--seeds",
+      "10",
+      "--bmax",
+      "20"
+    ],
+    "capped_budget": [
+      "Fase3_separacion_efectos.py",
+      "--exp",
+      "3",
+      "--seeds",
+      "10",
+      "--bmax",
+      "20"
+    ],
+    "frequency_policy": [
+      "Fase3_separacion_efectos.py",
+      "--exp",
+      "4",
+      "--seeds",
+      "10",
+      "--bmax",
+      "20"
+    ],
+    "frozen_distribution": [
+      "Fase3_separacion_efectos.py",
+      "--exp",
+      "5",
+      "--seeds",
+      "10",
+      "--bmax",
+      "20"
+    ],
+    "depth_and_uniform": [
+      "recompute_s11_depth.py"
+    ],
+    "mixer_A": [
+      "recompute_mixer_ext.py",
+      "A",
+      "ring:by_pairs",
+      "line:by_pairs"
+    ],
+    "mixer_B": [
+      "recompute_mixer_ext.py",
+      "B",
+      "fully_connected:by_pairs",
+      "fully_connected:none"
+    ],
+    "mixer_C": [
+      "recompute_mixer_ext.py",
+      "C",
+      "line:none"
+    ]
+  },
+  "started": "2026-11-09T13:26:21"
+}

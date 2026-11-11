@@ -1,0 +1,11 @@
+topology,normalization,seed,n_unique_exactK,entropy_ratio,top1_freq,frac_exactK
+line,none,0,11,0.2127,0.5556,1.0
+line,none,1,11,0.2117,0.559,1.0
+line,none,2,11,0.2132,0.5528,1.0
+line,none,3,11,0.2133,0.5534,1.0
+line,none,4,11,0.2125,0.5554,1.0
+line,none,5,11,0.2076,0.5712,1.0
+line,none,6,11,0.2131,0.5544,1.0
+line,none,7,11,0.21,0.5634,1.0
+line,none,8,11,0.2123,0.5568,1.0
+line,none,9,11,0.2136,0.5538,1.0

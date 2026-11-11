@@ -1,0 +1,16 @@
+{
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "description": "Canonical B=100 technology-composition bubble plot (chosen final design). Bubble area encodes selection frequency and color encodes technology family.",
+  "figure": "FigureS2_technology_composition_B100",
+  "outputs": [
+    "figures\\supplement\\FigureS2_technology_composition_B100\\FigureS2_technology_composition_B100.png",
+    "figures\\supplement\\FigureS2_technology_composition_B100\\FigureS2_technology_composition_B100.pdf",
+    "figures\\supplement\\FigureS2_technology_composition_B100\\FigureS2_technology_composition_B100.svg",
+    "figures\\supplement\\FigureS2_technology_composition_B100\\preview_grayscale_check.png",
+    "figures\\supplement\\png_inspection_300ppi\\FigureS2_technology_composition_B100.png"
+  ],
+  "protocol_version": "EH_CANONICAL_V1",
+  "source_files": [
+    "data/canonical_5k/continuous_evaluations.csv"
+  ]
+}

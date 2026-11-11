@@ -1,0 +1,5 @@
+K,N,T,n_total_supports,n_structural_rejected,n_ipopt_attempted,n_feasible_population,pct_feasible,TAC_star,n_seeds,n_seeds_with_feasible_solution,median_uniform_best_TAC_B100,median_gap_to_TAC_star_pct,median_percentile_B100,uniform_b100_source
+2,18,6,153,153,0,0,0.0,,10,0,,,,recomputed_this_appendix
+4,18,6,3060,3054,6,6,0.196,27054493.42763786,10,10,27054493.42763786,0.0,16.666666666666668,recomputed_this_appendix
+6,18,6,18564,12633,5931,5801,31.246,8775087.024891537,10,10,12144589.63746524,38.39850935968753,0.9394931908291676,canonical_5k (frozen, reused)
+8,18,6,43758,12021,31737,30912,70.657,7754342.497195218,10,10,8302540.113364903,7.06955639846926,1.1953286749482401,recomputed_this_appendix

@@ -1,0 +1,18 @@
+{
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "description": "Sampling coverage and S0-vs-S1 seed-paired outcomes (an association, not an isolated cause). (A) unique exact-K support pool size per seed changes from a median of 4,032.5 (S1 at 15,000 shots) to 1,207.5 (Control B: S1 resampled independently at 5,000 shots, matching everyone else's budget). (B) S0 win fraction against S1 across downstream budget B: the crossover (S0 losing a majority of seeds) is seen in the 15k-shot configuration; Control B, the independent 5k-shot draw, gives a 5-0-5 split at B=60 and B=100 (no detected difference, not equivalence).",
+  "figure": "figS_attribution",
+  "outputs": [
+    "figures\\supplement\\figS_attribution\\figS_attribution.png",
+    "figures\\supplement\\figS_attribution\\figS_attribution.pdf",
+    "figures\\supplement\\figS_attribution\\figS_attribution.svg",
+    "figures\\supplement\\figS_attribution\\figS_attribution_preview_gray.png"
+  ],
+  "protocol_version": "EH_CANONICAL_V1",
+  "source_files": [
+    "data/canonical_5k/unique_supports.csv",
+    "data/attribution/S1_15k_campaign_slice/unique_supports.csv",
+    "data/attribution/Control_B_full_output/unique_supports.csv",
+    "data/attribution/attribution_pairwise_wtl.csv"
+  ]
+}

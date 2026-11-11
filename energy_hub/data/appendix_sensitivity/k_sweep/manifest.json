@@ -1,0 +1,21 @@
+{
+  "ended_at_utc": "2026-08-10T18:56:32Z",
+  "k_values": [
+    8
+  ],
+  "note": "Supplementary appendix study. S0/S1/S2 surrogate arms are not re-run at other K; only the exhaustive classical reference (TAC*) and the Uniform-random control at B=100 are computed per K. K=6 reuses the frozen EH_CANONICAL_V1 exhaustive reference by read-only lookup.",
+  "protocol_version": "EH_K_SWEEP_APPENDIX_V1",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "started_at_utc": "2026-08-10T17:47:47Z"
+}

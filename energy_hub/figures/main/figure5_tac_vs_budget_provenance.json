@@ -1,0 +1,17 @@
+{
+  "config_hash": "33afa58af994ec0aaecea69bf6886f774f35abe3e80f478b3a8f12bb68e380cb",
+  "description": "TAC outcomes versus the common downstream evaluation budget and stage-wise information alignment. Panel A uses every prefix B=1..100 from the ordered candidate list and shows the exhaustive Exact-K reference as a horizontal line; larger markers show the protocol reporting budgets B in {10,30,60,100}. Panel B reports canonical Spearman correlations for E(y)->p(y)->V(y), where positive values indicate preserved ordering toward lower energy/TAC. Distinct line styles support grayscale/black-and-white inspection.",
+  "figure": "figure5_tac_vs_budget",
+  "outputs": [
+    "figures\\main\\figure5_tac_vs_budget.png",
+    "figures\\main\\figure5_tac_vs_budget.pdf",
+    "figures\\main\\figure5_tac_vs_budget.svg",
+    "figures\\main\\figure5_tac_vs_budget_preview_gray.png"
+  ],
+  "protocol_version": "EH_CANONICAL_V1",
+  "source_files": [
+    "outputs/energy_hub_canonical_v1/continuous_evaluations.csv",
+    "outputs/energy_hub_canonical_v1/exhaustive_reference_summary.json",
+    "outputs/energy_hub_canonical_v1/unique_supports.csv"
+  ]
+}
